@@ -9,6 +9,9 @@
 #define INF std::numeric_limits<int>::max()/2
 #define FOR(x,y) for(int x=0;x<y;x++)
 #define FOR_S(x,a,y) for(int x=a;x<y;x++)
+#define SORT(a) sort(a.begin(), a.end());
+#define SEARCH(a, b) binary_search(a.begin(), a.end(), b)
+
 using namespace std;
 
 void Floyd(int tab[][MAXN], int size)
