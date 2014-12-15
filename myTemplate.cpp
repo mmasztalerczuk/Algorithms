@@ -20,6 +20,7 @@ int DEBUG = 1;
 #define SORT(a) sort(a.begin(), a.end());
 #define SEARCH(a, b) binary_search(a.begin(), a.end(), b)
 #define SZ(a) (int)a.size()
+#define LEN(a) (int)a.length()
 
 #define FOREACH(y,x) for(auto y=x.begin(); y!=x.end(); y++)
 
