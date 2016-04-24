@@ -2,7 +2,7 @@ Zadania:
 
 Super Easy Problems in the UVa Online Judge
 
-UVa 00272 - TEX Quotes (replace all double quotes to TEX() style quotes)
+[DONE] UVa 00272 - TEX Quotes (replace all double quotes to TEX() style quotes)
 UVa 01124 - Celebrity Jeopardy (LA 2681, just echo/re-print the input again)
 UVa 10550 - Combination Lock (simple, do as asked)
 UVa 11044 - Searching for Nessy (one liner code/formula exists)
@@ -21,7 +21,7 @@ UVa 12577 - Hajj-e-Akbar (straightforward)
 
 Easy:
 
-UVa 00621 - Secret Research (case analysis for only 4 possible outputs)
+[DONE] UVa 00621 - Secret Research (case analysis for only 4 possible outputs)
 UVa 10114 - Loansome Car Buyer * (just simulate the process)
 UVa 10300 - Ecological Premium (ignore the number of animals)
 UVa 10963 - The Swallowing Ground (for two blocks to be mergable, the
