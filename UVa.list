@@ -43,7 +43,7 @@ IOI 2010 - Memory (use 2 linear pass)
 Medium
 
 [DONE] UVa 00119 - Greedy Gift Givers (simulate give and receive process)
-UVa 00573 - The Snail * (simulation, beware of boundary cases!)
+[DONE] UVa 00573 - The Snail * (simulation, beware of boundary cases!)
 UVa 00661 - Blowing Fuses (simulation)
 UVa 10141 - Request for Proposal * (solvable with one linear scan)
 UVa 10324 - Zeros and Ones (simplify using 1D array: change counter)

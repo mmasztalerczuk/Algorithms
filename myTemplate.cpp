@@ -63,6 +63,24 @@ void Floyd(int tab[][MAXN], int size)
             }
 }
 
+
+int palindrome(string a, int i, int j)
+{
+    //cout << "Checking " << a << " dla " << i << " " << j << endl;
+    int mid = (j-i+1)/2;
+    int p = mid + i;
+    for(;i<=j;i++,j--)
+    {
+            if (a[i]!=a[j])
+            {
+                //cout << a[i] << " " << a[j] << endl;
+                return 0;}
+
+    }
+    //cout << "FINE" << endl;
+    return 1;
+}
+
 vector<vector<int> > AllSets(int e)
 {
     MAT_INT ans;
