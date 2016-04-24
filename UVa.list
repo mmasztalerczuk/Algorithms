@@ -24,8 +24,7 @@ Easy:
 [DONE] UVa 00621 - Secret Research (case analysis for only 4 possible outputs)
 UVa 10114 - Loansome Car Buyer * (just simulate the process)
 UVa 10300 - Ecological Premium (ignore the number of animals)
-UVa 10963 - The Swallowing Ground (for two blocks to be mergable, the
-gaps between their columns must be the same)
+UVa 10963 - The Swallowing Ground (for two blocks to be mergable, the gaps between their columns must be the same)
 UVa 11332 - Summing Digits (simple recursions)
 UVa 11559 - Event Planning * (one linear pass)
 UVa 11679 - Sub-prime (check if after simulation all banks have ≥ 0 reserve)
@@ -99,7 +98,7 @@ UVa 12239 - Bingo (try all 90 2 pairs, see if all numbers in [0..N] are there)
 
 Game (Others), Harder (more tedious)
 
-UVa 00114 - Simulation Wizardry (simulation of pinball machine)
+[DONE] UVa 00114 - Simulation Wizardry (simulation of pinball machine)
 UVa 00141 - The Spot Game (simulation, pattern check)
 UVa 00220 - Othello (follow the game rules, a bit tedious)
 UVa 00227 - Puzzle (parse the input, array manipulation)
@@ -115,7 +114,7 @@ UVa 10903 - Rock-Paper-Scissors ... (count win+losses, output win average)
 
 Palindrome
 
-UVa 00353 - Pesky Palindromes (brute force all substring)
+[DONE] UVa 00353 - Pesky Palindromes (brute force all substring)
 UVa 00401 - Palindromes * (simple palindrome check)
 UVa 10018 - Reverse and Add (ad hoc, math, palindrome check)
 UVa 10945 - Mother Bear * (palindrome)
@@ -1238,15 +1237,6 @@ Also see some mathematical problems in Section 3.2.
 
 
 • Finding Pattern or Formula, Easier
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
 UVa 10014 - Simple calculations (derive the required formula)
 UVa 10170 - The Hotel with Infinite ... (one liner formula exists)
 UVa 10499 - The Land of Justice (simple formula exists)
@@ -1294,25 +1284,6 @@ problem is just about finding Euclidean distance between two coordinates)
 
 9. SPOJ 3944 - Bee Walk (a grid problem)
 • Number Systems or Sequences
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
-11.
-12.
-13.
-14.
-15.
-16.
-17.
-18.
-19.
 UVa 00136 - Ugly Numbers (use similar technique as UVa 443)
 UVa 00138 - Street Numbers (arithmetic progression formula, precalculated)
 UVa 00413 - Up and Down Sequences (simulate; array manipulation)
@@ -1463,8 +1434,10 @@ decimal and check see if gcd(s1, s2) > 1)
 6. UVa 11821 - High-Precision Number * (Java BigDecimal class)
 
 Other Programming Exercises related to Combinatorics:
+
 • Fibonacci Numbers
-1. UVa 00495 - Fibonacci Freeze (very easy with Java BigInteger)
+
+[DONE] UVa 00495 - Fibonacci Freeze (very easy with Java BigInteger)
 2. UVa 00580 - Critical Mass (related to Tribonacci series; Tribonacci numbers
 are the generalization of Fibonacci numbers; it is defined by T 1 = 1, T 2 = 1,
 T 3 = 2, and T n = T n−1 + T n−2 + T n−3 for n ≥ 4)
@@ -1531,13 +1504,14 @@ answer is very trivial)
 
 6. UVa 11609 - Teams (N × 2 N −1 , use Java BigInteger for the modPow part)
 7. UVa 12463 - Little Nephew (double socks & shoes to simplify the problem)
+
 • Others, Harder
+
 UVa 01224 - Tile Code (derive formula from small instances)
 UVa 10079 - Pizza Cutting (derive the one liner formula)
 UVa 10359 - Tiling (derive the formula, use Java BigInteger)
 UVa 10733 - The Colored Cubes (Burnside’s lemma)
-UVa 10784 - Diagonal * (the number of diagonals in n-gon = n∗(n−3)/2,
-use it to derive the solution)
+UVa 10784 - Diagonal * (the number of diagonals in n-gon = n∗(n−3)/2, use it to derive the solution)
 UVa 10790 - How Many Points of ... (uses arithmetic progression formula)
 UVa 10918 - Tri Tiling (there are two related recurrences here)
 UVa 11069 - A Graph Problem * (use Dynamic Programming)
@@ -1545,28 +1519,24 @@ UVa 11204 - Musical Instruments (only first choice matters)
 UVa 11270 - Tiling Dominoes (sequence A004003 in OEIS)
 UVa 11538 - Chess Queen * (count along rows, columns, and diagonals)
 UVa 11554 - Hapless Hedonism (similar to UVa 11401)
-UVa 12022 - Ordering T-shirts (number of ways n competitors can rank in a
-competition, allowing for the possibility of ties, see http://oeis.org/A000670)
+UVa 12022 - Ordering T-shirts (number of ways n competitors can rank in a competition, allowing for the possibility of ties, see http://oeis.org/A000670)
 
 • Prime Numbers
-1. UVa 00406 - Prime Cuts (sieve; take the middle ones)
-2. UVa 00543 - Goldbach’s Conjecture * (sieve; complete search; Chris-
-tian Goldbach’s conjecture (updated by Leonhard Euler): Every even num-
-ber ≥ 4 can be expressed as the sum of two prime numbers)
-3. UVa 00686 - Goldbach’s Conjecture (II) (similar to UVa 543)
-4. UVa 00897 - Annagramatic Primes (sieve; just need to check digit rotations)
-5. UVa 00914 - Jumping Champion (sieve; be careful with L and U < 2)
-6. UVa 10140 - Prime Distance * (sieve; linear scan)
-7. UVa 10168 - Summation of Four Primes (backtracking with pruning)
-8. UVa 10311 - Goldbach and Euler (case analysis, brute force, see UVa 543)
-9. UVa 10394 - Twin Primes * (sieve; check if p and p + 2 are both primes;
-if yes, they are twin primes; precalculate the result)
-10. UVa 10490 - Mr. Azad and his Son (Ad Hoc; precalculate the answers)
-11. UVa 10650 - Determinate Prime (sieve; find 3 uni-distance consecutive primes)
-12. UVa 10852 - Less Prime (sieve; p = 1, find the first prime number ≥ n 2 + 1)
-13. UVa 10948 - The Primary Problem (Goldbach’s conjecture, see UVa 543)
-√
-4
+
+UVa 00406 - Prime Cuts (sieve; take the middle ones)
+UVa 00543 - Goldbach’s Conjecture * (sieve; complete search; Chris-tian Goldbach’s conjecture (updated by Leonhard Euler): Every even num- ber ≥ 4 can be expressed as the sum of two prime numbers)
+UVa 00686 - Goldbach’s Conjecture (II) (similar to UVa 543)
+UVa 00897 - Annagramatic Primes (sieve; just need to check digit rotations)
+UVa 00914 - Jumping Champion (sieve; be careful with L and U < 2)
+UVa 10140 - Prime Distance * (sieve; linear scan)
+UVa 10168 - Summation of Four Primes (backtracking with pruning)
+UVa 10311 - Goldbach and Euler (case analysis, brute force, see UVa 543)
+UVa 10394 - Twin Primes * (sieve; check if p and p + 2 are both primes; if yes, they are twin primes; precalculate the result)
+UVa 10490 - Mr. Azad and his Son (Ad Hoc; precalculate the answers)
+UVa 10650 - Determinate Prime (sieve; find 3 uni-distance consecutive primes)
+UVa 10852 - Less Prime (sieve; p = 1, find the first prime number ≥ n 2 + 1)
+UVa 10948 - The Primary Problem (Goldbach’s conjecture, see UVa 543)
+
 14. UVa 11752 - The Super Powers (try base: 2 to 2 64 , composite power, sort)
 • GCD and/or LCM
 1. UVa 00106 - Fermat vs. Phytagoras (brute force; use GCD to get relatively
