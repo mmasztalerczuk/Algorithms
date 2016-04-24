@@ -1,0 +1,2625 @@
+Zadania:
+
+Super Easy Problems in the UVa Online Judge
+
+UVa 00272 - TEX Quotes (replace all double quotes to TEX() style quotes)
+UVa 01124 - Celebrity Jeopardy (LA 2681, just echo/re-print the input again)
+UVa 10550 - Combination Lock (simple, do as asked)
+UVa 11044 - Searching for Nessy (one liner code/formula exists)
+UVa 11172 - Relational Operators * (ad hoc, very easy, one liner)
+UVa 11364 - Parking (linear scan to get l & r, answer = 2 ∗ (r − l))
+UVa 11498 - Division of Nlogonia * (just use if-else statements)
+UVa 11547 - Automatic Answer (a one liner O(1) solution exists)
+UVa 11727 - Cost Cutting * (sort the 3 numbers and get the median)
+UVa 12250 - Language Detection (LA 4995, KualaLumpur10, if-else check)
+UVa 12279 - Emoogle Balance (simple linear scan)
+UVa 12289 - One-Two-Three (just use if-else statements)
+UVa 12372 - Packing for Holiday (just check if all L, W, H ≤ 20)
+UVa 12403 - Save Setu (straightforward)
+UVa 12577 - Hajj-e-Akbar (straightforward)
+
+
+Easy:
+
+UVa 00621 - Secret Research (case analysis for only 4 possible outputs)
+UVa 10114 - Loansome Car Buyer * (just simulate the process)
+UVa 10300 - Ecological Premium (ignore the number of animals)
+UVa 10963 - The Swallowing Ground (for two blocks to be mergable, the
+gaps between their columns must be the same)
+UVa 11332 - Summing Digits (simple recursions)
+UVa 11559 - Event Planning * (one linear pass)
+UVa 11679 - Sub-prime (check if after simulation all banks have ≥ 0 reserve)
+UVa 11764 - Jumping Mario (one linear scan to count high+low jumps)
+UVa 11799 - Horror Dash * (one linear scan to find the max value)
+UVa 11942 - Lumberjack Sequencing (check if input is sorted asc/descending)
+UVa 12015 - Google is Feeling Lucky (traverse the list twice)
+UVa 12157 - Tariff Plan (LA 4405, KualaLumpur08, compute and compare)
+UVa 12468 - Zapping (easy; there are only 4 possibilities)
+UVa 12503 - Robot Instructions (easy simulation)
+UVa 12554 - A Special ... Song (simulation)
+IOI 2010 - Cluedo (use 3 pointers)
+IOI 2010 - Memory (use 2 linear pass)
+
+
+Medium
+
+UVa 00119 - Greedy Gift Givers (simulate give and receive process)
+UVa 00573 - The Snail * (simulation, beware of boundary cases!)
+UVa 00661 - Blowing Fuses (simulation)
+UVa 10141 - Request for Proposal * (solvable with one linear scan)
+UVa 10324 - Zeros and Ones (simplify using 1D array: change counter)
+UVa 10424 - Love Calculator (just do as asked)
+UVa 10919 - Prerequisites? (process the requirements as the input is read)
+UVa 11507 - Bender B. Rodriguez ... * (simulation, if-else)
+UVa 11586 - Train Tracks (TLE if brute force, find the pattern)
+UVa 11661 - Burger Time? (linear scan)
+UVa 11683 - Laser Sculpture (one linear pass is enough)
+UVa 11687 - Digits (simulation; straightforward)
+UVa 11956 - Brain**** (simulation; ignore ‘.’)
+UVa 12478 - Hardest Problem ... (try one of the eight names)
+IOI 2009 - Garage (simulation)
+IOI 2009 - POI (sort)
+
+
+Ad Hoc
+
+Game (Card)
+
+UVa 00162 - Beggar My Neighbour (card game simulation; straightforward)
+UVa 00462 - Bridge Hand Evaluator * (simulation; card)
+UVa 00555 - Bridge Hands (card game)
+UVa 10205 - Stack ’em Up (card game)
+UVa 10315 - Poker Hands (tedious problem)
+UVa 10646 - What is the Card? * (shuffle cards with some rule and then get certain card)
+UVa 11225 - Tarot scores (another card game)
+UVa 11678 - Card’s Exchange (actually just an array manipulation problem)
+UVa 12247 - Jollo * (interesting card game; simple, but requires good logic to get all test cases correct)
+
+Game (Chess)
+
+UVa 00255 - Correct Move (check the validity of chess moves)
+UVa 00278 - Chess * (ad hoc, chess, closed form formula exists)
+UVa 00696 - How Many Knights * (ad hoc, chess)
+UVa 10196 - Check The Check (ad hoc chess game, tedious)
+UVa 10284 - Chessboard in FEN * (FEN = Forsyth-Edwards Notation is a standard notation for describing board positions in a chess game)
+UVa 10849 - Move the bishop (chess)
+UVa 11494 - Queen (ad hoc, chess)
+
+Game (Others), Easier
+
+UVa 00340 - Master-Mind Hints (determine strong and weak matches)
+UVa 00489 - Hangman Judge * (just do as asked)
+UVa 00947 - Master Mind Helper (similar to UVa 340)
+UVa 10189 - Minesweeper * (simulate Minesweeper, similar to UVa 10279)
+UVa 10279 - Mine Sweeper (a 2D array helps, similar to UVa 10189)
+UVa 10409 - Die Game (just simulate the die movement)
+UVa 10530 - Guessing Game (use a 1D flag array)
+UVa 11459 - Snakes and Ladders * (simulate it, similar to UVa 647)
+UVa 12239 - Bingo (try all 90 2 pairs, see if all numbers in [0..N] are there)
+
+Game (Others), Harder (more tedious)
+
+UVa 00114 - Simulation Wizardry (simulation of pinball machine)
+UVa 00141 - The Spot Game (simulation, pattern check)
+UVa 00220 - Othello (follow the game rules, a bit tedious)
+UVa 00227 - Puzzle (parse the input, array manipulation)
+UVa 00232 - Crossword Answers (complex array manipulation problem)
+UVa 00339 - SameGame Simulation (follow problem description)
+UVa 00379 - HI-Q (follow problem description)
+UVa 00584 - Bowling * (simulation, games, reading comprehension)
+UVa 00647 - Chutes and Ladders (childhood board game, also see UVa 11459)
+UVa 10363 - Tic Tac Toe (check validity of Tic Tac Toe game, tricky)
+UVa 10443 - Rock, Scissors, Paper * (2D arrays manipulation)
+UVa 10813 - Traditional BINGO * (follow the problem description)
+UVa 10903 - Rock-Paper-Scissors ... (count win+losses, output win average)
+
+Palindrome
+
+UVa 00353 - Pesky Palindromes (brute force all substring)
+UVa 00401 - Palindromes * (simple palindrome check)
+UVa 10018 - Reverse and Add (ad hoc, math, palindrome check)
+UVa 10945 - Mother Bear * (palindrome)
+UVa 11221 - Magic Square Palindrome * (we deal with a matrix)
+UVa 11309 - Counting Chaos (palindrome check)
+
+Anagram
+
+UVa 00148 - Anagram Checker (uses backtracking)
+UVa 00156 - Ananagram * (easier with algorithm::sort)
+UVa 00195 - Anagram * (easier with algorithm::next permutation)
+UVa 00454 - Anagrams * (anagram)
+UVa 00630 - Anagrams (II) (ad hoc, string)
+UVa 00642 - Word Amalgamation (go through the given small dictionary for the list of possible anagrams)
+UVa 10098 - Generating Fast, Sorted ... (very similar to UVa 195)
+
+Interesting Real Life Problems, Easier
+
+UVa 00161 - Traffic Lights * (this is a typical situation on the road)
+UVa 00187 - Transaction Processing (an accounting problem)
+UVa 00362 - 18,000 Seconds Remaining (typical file download situation)
+UVa 00637 - Booklet Printing * (application in printer driver software)
+UVa 00857 - Quantiser (MIDI, application in computer music)
+UVa 10082 - WERTYU (this typographical error happens to us sometimes)
+UVa 10191 - Longest Nap (you may want to apply this to your own schedule)
+UVa 10528 - Major Scales (music knowledge is in the problem description)
+UVa 10554 - Calories from Fat (are you concerned with your weights?)
+UVa 10812 - Beat the Spread * (be careful with boundary cases!)
+UVa 11530 - SMS Typing (handphone users encounter this problem everyday)
+UVa 11945 - Financial Management (a bit output formatting)
+UVa 11984 - A Change in Thermal Unit (F ◦ to C ◦ conversion and vice versa)
+UVa 12195 - Jingle Composing (count the number of correct measures)
+UVa 12555 - Baby Me (one of the first question asked when a new baby is
+born; requires a bit of input processing)
+
+
+Interesting Real Life Problems, Harder (more tedious)
+
+UVa 00139 - Telephone Tangles (calculate phone bill; string manipulation)
+UVa 00145 - Gondwanaland Telecom (similar nature with UVa 139)
+UVa 00333 - Recognizing Good ISBNs (note: this problem has ‘buggy’ test data with blank lines that potentially cause lots of ‘Presentation Errors’)
+UVa 00346 - Getting Chorded (musical chord, major/minor)
+UVa 00403 - Postscript * (emulation of printer driver, tedious)
+UVa 00447 - Population Explosion (life simulation model)
+UVa 00448 - OOPS (tedious ‘hexadecimal’ to ‘assembly language’ conversion)
+UVa 00449 - Majoring in Scales (easier if you have a musical background)
+UVa 00457 - Linear Cellular Automata (simplified ‘game of life’ simulation;
+similar idea with UVa 447; explore the Internet for that term)
+UVa 00538 - Balancing Bank Accounts (the problem’s premise is quite true)
+UVa 00608 - Counterfeit Dollar * (classical problem)
+UVa 00706 - LC-Display (what we see in old digital display)
+UVa 01061 - Consanguine Calculations * (LA 3736 - WorldFinals Tokyo07,
+consanguine = blood; this problem asks possible combinations of blood types
+and Rh factor; solvable by trying all eight possible blood + Rh types with
+the information given in the problem description)
+UVa 10415 - Eb Alto Saxophone Player (about musical instruments)
+UVa 10659 - Fitting Text into Slides (typical presentation programs do this)
+UVa 11223 - O: dah, dah, dah (tedious morse code conversion)
+UVa 11743 - Credit Check (Luhn’s algorithm to check credit card numbers; search the Internet to learn more)
+UVa 12342 - Tax Calculator (tax computation can be tricky indeed)
+
+Time
+
+UVa 00170 - Clock Patience (simulation, time)
+UVa 00300 - Maya Calendar (ad hoc, time)
+UVa 00579 - Clock Hands * (ad hoc, time)
+UVa 00893 - Y3K * (use Java GregorianCalendar; similar to UVa 11356)
+UVa 10070 - Leap Year or Not Leap ... (more than ordinary leap years)
+UVa 10339 - Watching Watches (find the formula)
+UVa 10371 - Time Zones (follow the problem description)
+UVa 10683 - The decadary watch (simple clock system conversion)
+UVa 11219 - How old are you? (be careful with boundary cases!)
+UVa 11356 - Dates (very easy if you use Java GregorianCalendar)
+UVa 11650 - Mirror Clock (some mathematics required)
+UVa 11677 - Alarm Clock (similar idea with UVa 11650)
+UVa 11947 - Cancer or Scorpio * (easier with Java GregorianCalendar)
+UVa 11958 - Coming Home (be careful with ‘past midnight’)
+UVa 12019 - Doom’s Day Algorithm (Gregorian Calendar; get DAY OF WEEK)
+UVa 12136 - Schedule of a Married Man (LA 4202, Dhaka08, check time)
+UVa 12148 - Electricity (easy with Gregorian Calendar; use method ‘add’ to
+add one day to previous date and see if it is the same as the current date)
+UVa 12439 - February 29 (inclusion-exclusion; lots of corner cases; be careful)
+UVa 12531 - Hours and Minutes (angles between two clock hands)
+
+Time Wasters Problems
+
+UVa 00144 - Student Grants (simulation)
+UVa 00214 - Code Generation (just simulate the process; be careful with subtract (-), divide (/), and negate (@), tedious)
+UVa 00335 - Processing MX Records (simulation)
+UVa 00337 - Interpreting Control ... (simulation, output related)
+UVa 00349 - Transferable Voting (II) (simulation)
+UVa 00381 - Making the Grade (simulation)
+UVa 00405 - Message Routing (simulation)
+UVa 00556 - Amazing * (simulation)
+UVa 00603 - Parking Lot (simulate the required process)
+UVa 00830 - Shark (very hard to get AC, one minor error = WA)
+UVa 00945 - Loading a Cargo Ship (simulate the given cargo loading process)
+UVa 10033 - Interpreter (adhoc, simulation)
+UVa 10134 - AutoFish (must be very careful with details)
+UVa 10142 - Australian Voting (simulation)
+UVa 10188 - Automated Judge Script (simulation)
+UVa 10267 - Graphical Editor (simulation)
+UVa 10961 - Chasing After Don Giovanni (tedious simulation)
+UVa 11140 - Little Ali’s Little Brother (ad hoc)
+UVa 11717 - Energy Saving Micro... (tricky simulation)
+UVa 12060 - All Integer Average * (LA 3012, Dhaka04, output format)
+UVa 12085 - Mobile Casanova * (LA 2189, Dhaka06, watch out for PE)
+UVa 12608 - Garbage Collection (simulation with several corner cases)
+
+
+1D Array Manipulation, e.g. array, C++ STL vector (or Java Vector/ArrayList)
+
+
+UVa 00230 - Borrowers (a bit of string parsing, see Section 6.2; maintain list of sorted books; sort key: author names first and if ties, by title; the input size is small although not stated; we do not need to use balanced BST)
+UVa 00394 - Mapmaker (any n-dimensional array is stored in computer mem-
+ory as a single dimensional array; follow the problem description)
+UVa 00414 - Machined Surfaces (get longest stretch of ‘B’s)
+UVa 00467 - Synching Signals (linear scan, 1D boolean flag)
+UVa 00482 - Permutation Arrays (you may need to use a string tokenizer—
+zee Section 6.2—as the size of the array is not specified)
+UVa 00591 - Box of Bricks (sum all items; get the average; sum the total
+absolute differences of each item from the average divided by two)
+UVa 00665 - False Coin (use 1D boolean flags; all coins are initially potential
+false coins; if ‘=’, all coins on the left and right are not false coins; if ‘<’ or
+‘>’, all coins not on the left and right are not false coins; check if there is
+only one candidate false coin left at the end)
+UVa 00755 - 487-3279 (Direct Addressing Table; convert the letters except
+Q & Z to 2-9; keep ‘0’-‘9’ as 0-9; sort the integers; find duplicates if any)
+UVa 10038 - Jolly Jumpers * (use 1D boolean flags to check [1..n − 1])
+UVa 10050 - Hartals (1D boolean flag)
+UVa 10260 - Soundex (Direct Addressing Table for soundex code mapping)
+UVa 10978 - Let’s Play Magic (1D string array manipulation)
+UVa 11093 - Just Finish it up (linear scan, circular array, a bit challenging)
+UVa 11192 - Group Reverse (character array)
+UVa 11222 - Only I did it (use several 1D arrays to simplify this problem)
+UVa 11340 - Newspaper * (DAT; see Hashing in Section 2.3)
+UVa 11496 - Musical Loop (store data in 1D array, count the peaks)
+UVa 11608 - No Problem (use three arrays: created; required; available)
+UVa 11850 - Alaska (for each integer location from 0 to 1322; can Brenda
+reach (anywhere within 200 miles of) any charging stations?)
+UVa 12150 - Pole Position (simple manipulation)
+UVa 12356 - Army Buddies * (similar to deletion in doubly linked lists,
+but we can still use a 1D array for the underlying data structure)
+
+
+2D Array Manipulation
+
+UVa 00101 - The Blocks Problem (‘stack’ like simulation; but we need to
+access the content of each stack too, so it is better to use 2D array)
+UVa 00434 - Matty’s Blocks (a kind of visibility problem in geometry, solvable
+with using 2D array manipulation)
+UVa 00466 - Mirror Mirror (core functions: rotate and reflect)
+UVa 00541 - Error Correction (count the number of ‘1’s for each row/col; all
+of them must be even; if ∃ an error, check if it is on the same row and col)
+UVa 10016 - Flip-flop the Squarelotron (tedious)
+UVa 10703 - Free spots (use 2D boolean array of size 500 × 500)
+UVa 10855 - Rotated squares * (string array, 90 o clockwise rotation)
+UVa 10920 - Spiral Tap * (simulate the process)
+UVa 11040 - Add bricks in the wall (non trivial 2D array manipulation)
+UVa 11349 - Symmetric Matrix (use long long to avoid issues)
+UVa 11360 - Have Fun with Matrices (do as asked)
+UVa 11581 - Grid Successors * (simulate the process)
+UVa 11835 - Formula 1 (do as asked)
+UVa 12187 - Brothers (simulate the process)
+UVa 12291 - Polyomino Composer (do as asked, a bit tedious)
+UVa 12398 - NumPuzz I (simulate backwards, do not forget to mod 10)
+
+
+C++ STL algorithm
+
+UVa 00123 - Searching Quickly (modified comparison function, use sort)
+UVa 00146 - ID Codes * (use next permutation)
+UVa 00400 - Unix ls (this command very frequently used in UNIX)
+UVa 00450 - Little Black Book (tedious sorting problem)
+UVa 00790 - Head Judge Headache (similar to UVa 10258)
+UVa 00855 - Lunch in Grid City (sort, median)
+UVa 01209 - Wordfish (LA 3173, Manila06) (STL next and prev permutation)
+UVa 10057 - A mid-summer night ... (involves the median, use STL sort,
+upper bound, lower bound and some checks)
+UVa 10107 - What is the Median? * (find median of a growing/dynamic
+list of integers; still solvable with multiple calls of nth element in algorithm)
+UVa 10194 - Football a.k.a. Soccer (multi-fields sorting, use sort)
+UVa 10258 - Contest Scoreboard * (multi-fields sorting, use sort)
+UVa 10698 - Football Sort (multi-fields sorting, use sort)
+UVa 10880 - Colin and Ryan (use sort)
+UVa 10905 - Children’s Game (modified comparison function, use sort)
+UVa 11039 - Building Designing (use sort then count different signs)
+UVa 11321 - Sort Sort and Sort (be careful with negative mod!)
+UVa 11588 - Image Coding (sort simplifies the problem)
+UVa 11777 - Automate the Grades (sort simplifies the problem)
+UVa 11824 - A Minimum Land Price (sort simplifies the problem)
+UVa 12541 - Birthdates (LA6148, HatYai12, sort, pick youngest and oldest)
+
+Bit Manipulation
+
+UVa 00594 - One Little, Two Little ... (manipulate bit string with bitset)
+UVa 00700 - Date Bugs (can be solved with bitset)
+UVa 01241 - Jollybee Tournament (LA 4147, Jakarta08, easy)
+UVa 10264 - The Most Potent Corner * (heavy bitmask manipulation)
+UVa 11173 - Grey Codes (D & C pattern or one liner bit manipulation)
+UVa 11760 - Brother Arif, ... (separate row+col checks; use two bitsets)
+UVa 11926 - Multitasking * (use 1M bitset to check if a slot is free)
+UVa 11933 - Splitting Numbers * (an exercise for bit manipulation)
+IOI 2011 - Pigeons (this problem becomes simpler with bit manipulation but
+the final solution requires much more than that.)
+
+
+C++ STL list
+
+UVa 11988 - Broken Keyboard ... *
+
+
+C++ STL stack
+
+UVa 00127 - “Accordian” Patience (shuffling stack)
+UVa 00514 - Rails * (use stack to simulate the process)
+UVa 00732 - Anagram by Stack * (use stack to simulate the process)
+UVa 01062 - Containers * (LA 3752, WorldFinals Tokyo07, simulation
+with stack; maximum answer is 26 stacks; O(n) solution exists)
+5. UVa 10858 - Unique Factorization (use stack to help solving this problem)
+Also see: implicit stacks in recursive function calls and Postfix conver-
+sion/evaluation in Section 9.27.
+
+
+C++ STL queue and deque (Java Queue and Deque)
+
+UVa 00540 - Team Queue (modified ‘queue’)
+UVa 10172 - The Lonesome Cargo ... * (use both queue and stack)
+UVa 10901 - Ferry Loading III * (simulation with queue)
+UVa 10935 - Throwing cards away I (simulation with queue)
+UVa 11034 - Ferry Loading IV * (simulation with queue)
+UVa 12100 - Printer Queue (simulation with queue)
+UVa 12207 - This is Your Queue (use both queue and deque)
+Also see: queues in BFS (see Section 4.2.2)
+
+C++ STL map (and Java TreeMap)
+
+UVa 00417 - Word Index (generate all words, add to map for auto sorting)
+UVa 00484 - The Department of ... (maintain frequency with map)
+UVa 00860 - Entropy Text Analyzer (frequency counting)
+UVa 00939 - Genes (map child name to his/her gene and parents’ names)
+UVa 10132 - File Fragmentation (N = number of fragments, B = total bits of
+all fragments divided by N/2; try all 2 × N 2 concatenations of two fragments
+that have length B; report the one with highest frequency; use map)
+UVa 10138 - CDVII (map plates to bills, entrace time and position)
+UVa 10226 - Hardwood Species * (use hashing for a better performance)
+UVa 10282 - Babelfish (a pure dictionary problem; use map)
+UVa 10295 - Hay Points (use map to deal with Hay Points dictionary)
+UVa 10686 - SQF Problem (use map to manage the data)
+UVa 11239 - Open Source (use map and set to check previous strings)
+UVa 11286 - Conformity * (use map to keep track of the frequencies)
+UVa 11308 - Bankrupt Baker (use map and set to help manage the data)
+UVa 11348 - Exhibition (use map and set to check uniqueness)
+UVa 11572 - Unique Snowflakes * (use map to record the occurrence in-
+dex of a certain snowflake size; use this to determine the answer in O(n log n))
+UVa 11629 - Ballot evaluation (use map)
+UVa 11860 - Document Analyzer (use set and map, linear scan)
+UVa 11917 - Do Your Own Homework (use map)
+UVa 12504 - Updating a Dictionary (use map; string to string; a bit tedious)
+UVa 12592 - Slogan Learning of Princess (use map; string to string)
+Also check frequency counting section in Section 6.3.
+
+• C++ STL set (Java TreeSet)
+
+UVa 00501 - Black Box (use multiset with efficient iterator manipulation)
+UVa 00978 - Lemmings Battle * (simulation, use multiset)
+UVa 10815 - Andy’s First Dictionary (use set and string)
+UVa 11062 - Andy’s Second Dictionary (similar to UVa 10815, with twists)
+UVa 11136 - Hoax or what * (use multiset)
+UVa 11849 - CD * (use set to pass the time limit, better: use hashing!)
+UVa 12049 - Just Prune The List (multiset manipulation)
+
+• C++ STL priority queue (Java PriorityQueue)
+
+UVa 01203 - Argus * (LA 3135, Beijing04; use priority queue)
+UVa 10954 - Add All * (use priority queue, greedy)
+UVa 11995 - I Can Guess ... * (stack, queue, and priority queue)
+Also see the usage of priority queue for topological sorts (see Section 4.2.1),
+Kruskal’s 19 (see Section 4.3.2), Prim’s (see Section 4.3.3), Dijkstra’s (see
+Section 4.4.3), and the A* Search algorithms (see Section 8.2.5)
+
+
+Graph Data Structures Problems
+1. UVa 00599 - The Forrest for the Trees * (v−e = number of connected
+components, keep a bitset of size 26 to count the number of vertices that
+have some edge. Note: Also solvable with Union-Find)
+2. UVa 10895 - Matrix Transpose * (transpose adjacency list)
+3. UVa 10928 - My Dear Neighbours (counting out degrees)
+4. UVa 11550 - Demanding Dilemma (graph representation, incidence matrix)
+5. UVa 11991 - Easy Problem from ... * (use the idea of an Adj List)
+Also see: More graph problems in Chapter 4
+• Union-Find Disjoint Sets
+1. UVa 00793 - Network Connections * (trivial; application of disjoint sets)
+2. UVa 01197 - The Suspects (LA 2817, Kaohsiung03, Connected Components)
+3. UVa 10158 - War (advanced usage of disjoint sets with a nice twist; memorize
+list of enemies)
+4. UVa 10227 - Forests (merge two disjoint sets if they are consistent)
+5. UVa 10507 - Waking up brain * (disjoint sets simplifies this problem)
+6. UVa 10583 - Ubiquitous Religions (count disjoint sets after all unions)
+7. UVa 10608 - Friends (find the set with the largest element)
+8. UVa 10685 - Nature (find the set with the largest element)
+9. UVa 11503 - Virtual Friends * (maintain set attribute (size) in rep item)
+10. UVa 11690 - Money Matters (check if total money from each member is 0)
+• Tree-related Data Structures
+1. UVa 00297 - Quadtrees (simple quadtree problem)
+2. UVa 01232 - SKYLINE (LA 4108, Singapore07, a simple problem if input
+size is small; but since n ≤ 100000, we have to use a Segment Tree; note that
+this problem is not about RSQ/RMQ)
+3. UVa 11235 - Frequent Values * (range maximum query)
+4. UVa 11297 - Census (Quad Tree with updates or use 2D segment tree)
+5. UVa 11350 - Stern-Brocot Tree (simple tree data structure question)
+6. UVa 11402 - Ahoy, Pirates * (segment tree with lazy updates)
+7. UVa 12086 - Potentiometers (LA 2191, Dhaka06; pure dynamic range sum
+query problem; solvable with Fenwick Tree or Segment Tree)
+8. UVa 12532 - Interval Product * (clever usage of Fenwick/Segment Tree)
+Also see: DS as part of the solution of harder problems in Chapter 8
+
+
+
+Programming Exercises solvable using Complete Search:
+• Iterative (One Loop, Linear Scan)
+1. UVa 00102 - Ecological Bin Packing (just try all 6 possible combinations)
+2. UVa 00256 - Quirksome Squares (brute force, math, pre-calculate-able)
+3. UVa 00927 - Integer Sequence from ... * (use sum of arithmetic series)
+4. UVa 01237 - Expert Enough * (LA 4142, Jakarta08, input is small)
+5. UVa 10976 - Fractions Again ? * (total solutions is asked upfront; there-
+fore do brute force twice)
+6. UVa 11001 - Necklace (brute force math, maximize function)
+7. UVa 11078 - Open Credit System (one linear scan)
+• Iterative (Two Nested Loops)
+1. UVa 00105 - The Skyline Problem (height map, sweep left-right)
+2. UVa 00347 - Run, Run, Runaround ... (simulate the process)
+3. UVa 00471 - Magic Numbers (somewhat similar to UVa 725)
+4. UVa 00617 - Nonstop Travel (try all integer speeds from 30 to 60 mph)
+5. UVa 00725 - Division (elaborated in this section)
+6. UVa 01260 - Sales * (LA 4843, Daejeon10, check all)
+7. UVa 10041 - Vito’s Family (try all possible location of Vito’s House)
+8. UVa 10487 - Closest Sums * (sort and then do O(n 2 ) pairings)
+9. UVa 10730 - Antiarithmetic? (2 nested loops with pruning can pass possibly
+pass the weaker test cases; note that this brute force solution is too slow for
+the larger test data generated in the solution of UVa 11129)
+10. UVa 11242 - Tour de France * (plus sorting)
+11. UVa 12488 - Start Grid (2 nested loops; simulate overtaking process)
+12. UVa 12583 - Memory Overflow (2 nested loops; be careful of overcounting)
+• Iterative (Three Or More Nested Loops, Easier)
+UVa 00154 - Recycling (3 nested loops)
+UVa 00188 - Perfect Hash (3 nested loops, until the answer is found)
+UVa 00441 - Lotto * (6 nested loops)
+UVa 00626 - Ecosystem (3 nested loops)
+UVa 00703 - Triple Ties: The ... (3 nested loops)
+UVa 00735 - Dart-a-Mania * (3 nested loops, then count)
+UVa 10102 - The Path in the ... * (4 nested loops will do, we do not
+need BFS; get max of minimum Manhattan distance from a ‘1’ to a ‘3’.)
+UVa 10502 - Counting Rectangles (6 nested loops, rectangle, not too hard)
+UVa 10662 - The Wedding (3 nested loops)
+UVa 10908 - Largest Square (4 nested loops, square, not too hard)
+UVa 11059 - Maximum Product (3 nested loops, input is small)
+UVa 11975 - Tele-loto (3 nested loops, simulate the game as asked)
+UVa 12498 - Ant’s Shopping Mall (3 nested loops)
+UVa 12515 - Movie Police (3 nested loops)
+• Iterative (Three-or-More Nested Loops, Harder)
+1. UVa 00253 - Cube painting (try all, similar problem in UVa 11959)
+2. UVa 00296 - Safebreaker (try all 10000 possible codes, 4 nested loops, use
+similar solution as ‘Master-Mind’ game)
+3. UVa 00386 - Perfect Cubes (4 nested loops with pruning)
+4. UVa 10125 - Sumsets (sort; 4 nested loops; plus binary search)
+5. UVa 10177 - (2/3/4)-D Sqr/Rects/... (2/3/4 nested loops, precalculate)
+6. UVa 10360 - Rat Attack (also solvable using 1024 2 DP max sum)
+7. UVa 10365 - Blocks (use 3 nested loops with pruning)
+8. UVa 10483 - The Sum Equals ... (2 nested loops for a, b, derive c from a, b;
+there are 354 answers for range [0.01 .. 255.99]; similar with UVa 11236)
+9. UVa 10660 - Citizen attention ... * (7 nested loops, Manhattan distance)
+10. UVa 10973 - Triangle Counting (3 nested loops with pruning)
+11. UVa 11108 - Tautology (5 nested loops, try all 2 5 = 32 values with pruning)
+12. UVa 11236 - Grocery Store * (3 nested loops for a, b, c; derive d from
+a, b, c; check if you have 949 lines of output)
+13. UVa 11342 - Three-square (pre-calculate squared values from 0 2 to 224 2 , use
+3 nested loops to generate the answers; use map to avoid duplicates)
+14. UVa 11548 - Blackboard Bonanza (4 nested loops, string, pruning)
+15. UVa 11565 - Simple Equations * (3 nested loops with pruning)
+16. UVa 11804 - Argentina (5 nested loops)
+17. UVa 11959 - Dice (try all possible dice positions, compare with the 2nd one)
+Also see Mathematical Simulation in Section 5.2
+
+• Iterative (Fancy Techniques)
+1. UVa 00140 - Bandwidth (max n is just 8, use next permutation; the algo-
+rithm inside next permutation is iterative)
+2. UVa 00234 - Switching Channels (use next permutation, simulation)
+3. UVa 00435 - Block Voting (only 2 20 possible coalition combinations)
+4. UVa 00639 - Don’t Get Rooked (generate 2 16 combinations and prune)
+5. UVa 01047 - Zones * (LA 3278, WorldFinals Shanghai05, notice that
+n ≤ 20 so that we can try all possible subsets of towers to be taken; then
+apply inclusion-exclusion principle to avoid overcounting)
+6. UVa 01064 - Network (LA 3808, WorldFinals Tokyo07, permutation of up
+to 5 messages, simulation, mind the word ‘consecutive’)
+7. UVa 11205 - The Broken Pedometer (try all 2 15 bitmask)
+8. UVa 11412 - Dig the Holes (next permutation, find one possibility from 6!)
+9. UVa 11553 - Grid Game * (solve by trying all n! permutations; you can
+also use DP + bitmask, see Section 8.3.1, but it is overkill)
+10. UVa 11742 - Social Constraints (discussed in this section)
+11. UVa 12249 - Overlapping Scenes (LA 4994, KualaLumpur10, try all permu-
+tations, a bit of string matching)
+12. UVa 12346 - Water Gate Management (LA 5723, Phuket11, try all 2 n com-
+binations, pick the best one)
+13. UVa 12348 - Fun Coloring (LA 5725, Phuket11, try all 2 n combinations)
+14. UVa 12406 - Help Dexter (try all 2 p possible bitmasks, change ‘0’s to ‘2’s)
+15. UVa 12455 - Bars * (discussed in this section)
+• Recursive Backtracking (Easy)
+1. UVa 00167 - The Sultan Successor (8-queens chess problem)
+2. UVa 00380 - Call Forwarding (simple backtracking, but we have to work with
+strings, see Section 6.2)
+3. UVa 00539 - The Settlers ... (longest simple path in a small general graph)
+4. UVa 00624 - CD * (input size is small, backtracking is enough)
+5. UVa 00628 - Passwords (backtracking, follow the rules in description)
+6. UVa 00677 - All Walks of length “n” ... (print all solutions with backtracking)
+7. UVa 00729 - The Hamming Distance ... (generate all possible bit strings)
+8. UVa 00750 - 8 Queens Chess Problem (discussed in this section with sample
+source code)
+9. UVa 10276 - Hanoi Tower Troubles Again (insert a number one by one)
+10. UVa 10344 - 23 Out of 5 (rearrange the 5 operands and the 3 operators)
+11. UVa 10452 - Marcus, help (at each pos, Indy can go forth/left/right; try all)
+12. UVa 10576 - Y2K Accounting Bug * (generate all, prune, take max)
+13. UVa 11085 - Back to the 8-Queens * (see UVa 750, pre-calculation)
+• Recursive Backtracking (Medium)
+1. UVa 00222 - Budget Travel (looks like a DP problem, but the state cannot
+be memoized as ‘tank’ is floating-point; fortunately, the input is not large)
+2. UVa 00301 - Transportation (2 22 with pruning is possible)
+3. UVa 00331 - Mapping the Swaps (n ≤ 5...)
+4. UVa 00487 - Boggle Blitz (use map to store the generated words)
+5. UVa 00524 - Prime Ring Problem * (also see Section 5.5.1)
+
+UVa 00571 - Jugs (solution can be suboptimal, add flag to avoid cycling)
+UVa 00574 - Sum It Up * (print all solutions with backtracking)
+UVa 00598 - Bundling Newspaper (print all solutions with backtracking)
+UVa 00775 - Hamiltonian Cycle (backtracking suffices because the search
+space cannot be that big; in a dense graph, it is more likely to have a Hamil-
+tonian cycle, so we can prune early; we do NOT have to find the best one
+like in TSP problem)
+UVa 10001 - Garden of Eden (the upperbound of 2 32 is scary but with
+efficient pruning, we can pass the time limit as the test case is not extreme)
+UVa 10063 - Knuth’s Permutation (do as asked)
+UVa 10460 - Find the Permuted String (similar nature with UVa 10063)
+UVa 10475 - Help the Leaders (generate and prune; try all)
+UVa 10503 - The dominoes solitaire * (max 13 spaces only)
+UVa 10506 - Ouroboros (any valid solution is AC; generate all possible next
+digit (up to base 10/digit [0..9]); check if it is still a valid Ouroboros sequence)
+UVa 10950 - Bad Code (sort the input; run backtracking; the output should
+be sorted; only display the first 100 sorted output)
+UVa 11201 - The Problem with the ... (backtracking involving strings)
+UVa 11961 - DNA (there are at most 4 10 possible DNA strings; moreover,
+the mutation power is at most K ≤ 5 so the search space is much smaller;
+sort the output and then remove duplicates)
+• Recursive Backtracking (Harder)
+1. UVa 00129 - Krypton Factor (backtracking, string processing check, a bit of
+output formatting)
+2. UVa 00165 - Stamps (requires some DP too; can be pre-calculated)
+3. UVa 00193 - Graph Coloring * (Max Independent Set, input is small)
+4. UVa 00208 - Firetruck (backtracking with some pruning)
+5. UVa 00416 - LED Test * (backtrack, try all)
+6. UVa 00433 - Bank (Not Quite O.C.R.) (similar to UVa 416)
+7. UVa 00565 - Pizza Anyone? (backtracking with lots of pruning)
+8. UVa 00861 - Little Bishops (backtracking with pruning as in 8-queens recur-
+sive backtracking solution; then pre-calculate the results)
+9. UVa 00868 - Numerical maze (try row 1 to N; 4 ways; some constraints)
+10. UVa 01262 - Password * (LA 4845, Daejeon10, sort the columns in the
+two 6×5 grids first so that we can process common passwords in lexicographic
+order; backtracking; important: skip two similar passwords)
+11. UVa 10094 - Place the Guards (this problem is like the n-queens chess prob-
+lem, but must find/use the pattern!)
+12. UVa 10128 - Queue (backtracking with pruning; try up to all N! (13!) per-
+mutations that satisfy the requirement; then pre-calculate the results)
+13. UVa 10582 - ASCII Labyrinth (simplify complex input first; then backtrack)
+14. UVa 11090 - Going in Cycle (minimum mean weight cycle problem; solvable
+with backtracking with important pruning when current running mean is
+greater than the best found mean weight cycle cost)
+
+
+Programming Exercises solvable using Divide and Conquer:
+• Binary Search
+UVa 00679 - Dropping Balls (binary search; bit manipulation solutions exist)
+UVa 00957 - Popes (complete search + binary search: upper bound)
+UVa 10077 - The Stern-Brocot ... (binary search)
+UVa 10474 - Where is the Marble? (simple: use sort and then lower bound)
+UVa 10567 - Helping Fill Bates * (store increasing indices of each char
+of ‘S’ in 52 vectors; for each query, binary search for the position of the char
+in the correct vector)
+UVa 10611 - Playboy Chimp (binary search)
+UVa 10706 - Number Sequence (binary search + some mathematical insights)
+UVa 10742 - New Rule in Euphomia (use sieve; binary search)
+UVa 11057 - Exact Sum * (sort, for price p[i], check if price (M - p[i])
+exists with binary search)
+UVa 11621 - Small Factors (generate numbers with factor 2 and/or 3, sort,
+upper bound)
+UVa 11701 - Cantor (a kind of ternary search)
+UVa 11876 - N + NOD (N) ([lower|upper] bound on sorted sequence N)
+UVa 12192 - Grapevine * (the input array has special sorted properties;
+use lower bound to speed up the search)
+Thailand ICPC National Contest 2009 - My Ancestor (author: Felix Halim)
+• Bisection Method or Binary Search the Answer
+1. UVa 10341 - Solve It * (bisection method discussed in this section; for al-
+ternative solutions, see http://www.algorithmist.com/index.php/UVa 10341)
+2. UVa 11413 - Fill the ... * (binary search the answer + simulation)
+3. UVa 11881 - Internal Rate of Return (bisection method)
+4. UVa 11935 - Through the Desert (binary search the answer + simulation)
+5. UVa 12032 - The Monkey ... * (binary search the answer + simulation)
+6. UVa 12190 - Electric Bill (binary search the answer + algebra)
+7. IOI 2010 - Quality of Living (binary search the answer)
+Also see: Divide & Conquer for Geometry Problems (see Section 8.4.1)
+• Other Divide & Conquer Problems
+1. UVa 00183 - Bit Maps * (simple exercise of Divide and Conquer)
+2. IOI 2011 - Race (D&C; whether the solution path uses a vertex or not)
+Also see: Data Structures with Divide & Conquer flavor (see Section 2.3)
+
+
+Programming Exercises solvable using Greedy
+(most hints are omitted to keep the problems challenging):
+• Classical, Usually Easier
+UVa 00410 - Station Balance (discussed in this section, load balancing)
+UVa 01193 - Radar Installation (LA 2519, Beijing02, interval covering)
+UVa 10020 - Minimal Coverage (interval covering)
+UVa 10382 - Watering Grass (discussed in this section, interval covering)
+UVa 11264 - Coin Collector * (coin change variant)
+UVa 11389 - The Bus Driver Problem * (load balancing)
+UVa 12321 - Gas Station (interval covering)
+UVa 12405 - Scarecrow * (simpler interval covering problem)
+IOI 2011 - Elephants (optimized greedy solution can be used up to subtask 3,
+but the harder subtasks 4 and 5 must be solved using efficient data structure)
+• Involving Sorting (Or The Input Is Already Sorted)
+UVa 10026 - Shoemaker’s Problem
+UVa 10037 - Bridge
+UVa 10249 - The Grand Dinner
+UVa 10670 - Work Reduction
+UVa 10763 - Foreign Exchange
+UVa 10785 - The Mad Numerologist
+UVa 11100 - The Trip, 2007 *
+UVa 11103 - WFF’N Proof
+UVa 11269 - Setting Problems
+UVa 11292 - Dragon of Loowater *
+UVa 11369 - Shopaholic
+UVa 11729 - Commando War
+UVa 11900 - Boiled Eggs
+UVa 12210 - A Match Making Problem *
+UVa 12485 - Perfect Choir
+• Non Classical, Usually Harder
+UVa 00311 - Packets
+UVa 00668 - Parliament
+UVa 10152 - ShellSort
+UVa 10340 - All in All
+UVa 10440 - Ferry Loading II
+UVa 10602 - Editor Nottobad
+UVa 10656 - Maximum Sum (II) *
+UVa 10672 - Marbles on a tree
+UVa 10700 - Camel Trading
+UVa 10714 - Ants
+UVa 10718 - Bit Mask *
+UVa 10982 - Troublemakers
+UVa 11054 - Wine Trading in Gergovia
+UVa 11157 - Dynamic Frog *
+UVa 11230 - Annoying painting tool
+UVa 11240 - Antimonotonicity
+UVa 11335 - Discrete Pursuit
+UVa 11520 - Fill the Square
+UVa 11532 - Simple Adjacency ...
+UVa 11567 - Moliu Number Generator
+UVa 12482 - Short Story Competition
+
+
+Programming Exercises solvable using Dynamic Programming:
+• Max 1D Range Sum
+1. UVa 00507 - Jill Rides Again (standard problem)
+2. UVa 00787 - Maximum Sub ... * (max 1D range product, be careful with
+0, use Java BigInteger, see Section 5.3)
+3. UVa 10684 - The Jackpot * (standard problem; easily solvable with the
+given sample source code)
+4. UVa 10755 - Garbage Heap * (combination of max 2D range sum in two
+of the three dimensions—see below—and max 1D range sum using Kadane’s
+algorithm on the third dimension)
+See more examples in Section 8.4.
+• Max 2D Range Sum
+1. UVa 00108 - Maximum Sum * (discussed in this section with sample
+source code)
+2. UVa 00836 - Largest Submatrix (convert ‘0’ to -INF)
+3. UVa 00983 - Localized Summing for ... (max 2D range sum, get submatrix)
+4. UVa 10074 - Take the Land (standard problem)
+5. UVa 10667 - Largest Block (standard problem)
+6. UVa 10827 - Maximum Sum on ... * (copy n × n matrix into n × 2n
+matrix; then this problem becomes a standard problem again)
+7. UVa 11951 - Area * (use long long; max 2D range sum; prune the search
+space whenever possible)
+• Longest Increasing Subsequence (LIS)
+
+UVa 00111 - History Grading (be careful of the ranking system)
+UVa 00231 - Testing the Catcher (straight-forward)
+UVa 00437 - The Tower of Babylon (can be modeled as LIS)
+UVa 00481 - What Goes Up? * (use O(n log k) LIS; print solution; see
+our sample source code)
+UVa 00497 - Strategic Defense Initiative (solution must be printed)
+UVa 01196 - Tiling Up Blocks (LA 2815, Kaohsiung03; sort all the blocks in
+increasing L[i], then we get the classical LIS problem)
+UVa 10131 - Is Bigger Smarter? (sort elephants based on decreasing IQ; LIS
+on increasing weight)
+UVa 10534 - Wavio Sequence (must use O(n log k) LIS twice)
+UVa 11368 - Nested Dolls (sort in one dimension, LIS in the other)
+UVa 11456 - Trainsorting * (max(LIS(i) + LDS(i) - 1), ∀i ∈ [0 . . . n-1])
+UVa 11790 - Murcia’s Skyline * (combination of LIS+LDS, weighted)
+
+0-1 Knapsack (Subset Sum)
+1. UVa 00562 - Dividing Coins (use a one dimensional table)
+2. UVa 00990 - Diving For Gold (print the solution)
+3. UVa 01213 - Sum of Different Primes (LA 3619, Yokohama06, extension of
+0-1 Knapsack, use three parameters: (id, remN, remK) on top of (id, remN))
+4. UVa 10130 - SuperSale (discussed in this section with sample source code)
+5. UVa 10261 - Ferry Loading (s: current car, left, right)
+6. UVa 10616 - Divisible Group Sum * (input can be -ve, use long long)
+7. UVa 10664 - Luggage (Subset Sum)
+8. UVa 10819 - Trouble of 13-Dots * (0-1 knapsack with ‘credit card’ twist!)
+9. UVa 11003 - Boxes (try all max weight from 0 to max(weight[i]+capacity[i]),
+∀i ∈ [0..n-1]; if a max weight is known, how many boxes can be stacked?)
+10. UVa 11341 - Term Strategy (s: id, h learned, h left; t: learn module ‘id’ by
+1 hour or skip)
+11. UVa 11566 - Let’s Yum Cha * (English reading problem, actually just
+a knapsack variant: double each dim sum and add one parameter to check
+if we have bought too many dishes)
+12. UVa 11658 - Best Coalition (s: id, share; t: form/ignore coalition with id)
+• Coin Change (CC)
+
+UVa 00147 - Dollars (similar to UVa 357 and UVa 674)
+UVa 00166 - Making Change (two coin change variants in one problem)
+UVa 00357 - Let Me Count The Ways * (similar to UVa 147/674)
+UVa 00674 - Coin Change (discussed in this section with sample source code)
+UVa 10306 - e-Coins * (variant: each coin has two components)
+UVa 10313 - Pay the Price (modified coin change + DP 1D range sum)
+UVa 11137 - Ingenuous Cubrency (use long long)
+UVa 11517 - Exact Change * (a variation to the coin change problem)
+• Traveling Salesman Problem (TSP)
+1. UVa 00216 - Getting in Line * (TSP, still solvable with backtracking)
+2. UVa 10496 - Collecting Beepers * (discussed in this section with sam-
+ple source code; actually, since n ≤ 11, this problem is still solvable with
+recursive backtracking and sufficient pruning)
+3. UVa 11284 - Shopping Trip * (requires shortest paths pre-processing; TSP
+variant where we can go home early; we just need to tweak the DP TSP re-
+currence a bit: at each state, we have one more option: go home early)
+See more examples in Section 8.4.3 and Section 9.2.
+• Non Classical (The Easier Ones)
+1. UVa 00116 - Unidirectional TSP (similar to UVa 10337)
+2. UVa 00196 - Spreadsheet (notice that the dependencies of cells are acyclic;
+we can therefore memoize the direct (or indirect) value of each cell)
+3. UVa 01261 - String Popping (LA 4844, Daejeon10, a simple backtracking
+problem; but we use a set<string> to prevent the same state (a substring)
+from being checked twice)
+4. UVa 10003 - Cutting Sticks (discussed in details in this section with sample
+source code)
+5. UVa 10036 - Divisibility (must use offset technique as value can be negative)
+
+6. UVa 10086 - Test the Rods (s: idx, rem1, rem2; which site that we are now,
+up to 30 sites; remaining rods to be tested at NCPC; and remaining rods to
+be tested at BCEW; t: for each site, we split the rods, x rods to be tested
+at NCPC and m[i] − x rods to be tested at BCEW; print the solution)
+7. UVa 10337 - Flight Planner * (DP; shortest paths on DAG)
+8. UVa 10400 - Game Show Math (backtracking with clever pruning is sufficient)
+9. UVa 10446 - The Marriage Interview (edit the given recursive function a bit,
+add memoization)
+10. UVa 10465 - Homer Simpson (one dimensional DP table)
+11. UVa 10520 - Determine it (just write the given formula as a top-down DP
+with memoization)
+12. UVa 10688 - The Poor Giant (note that the sample in the problem descrip-
+tion is a bit wrong, it should be: 1+(1+3)+(1+3)+(1+3) = 1+4+4+4 = 13,
+beating 14; otherwise a simple DP)
+13. UVa 10721 - Bar Codes * (s: n, k; t: try all from 1 to m)
+14. UVa 10910 - Mark’s Distribution (two dimensional DP table)
+15. UVa 10912 - Simple Minded Hashing (s: len, last, sum; t: try next char)
+16. UVa 10943 - How do you add? * (discussed in this section with sample
+source code; s: n, k; t: try all the possible splitting points; alternative
+solution is to use the closed form mathematical formula: C(n + k − 1, k − 1)
+which also needs DP, see Section 5.4)
+17. UVa 10980 - Lowest Price in Town (simple)
+18. UVa 11026 - A Grouping Problem (DP, similar idea with binomial theorem
+in Section 5.4)
+19. UVa 11407 - Squares (can be memoized)
+20. UVa 11420 - Chest of Drawers (s: prev, id, numlck; lock/unlock this chest)
+21. UVa 11450 - Wedding Shopping (discussed in details in this section with
+sample source code)
+22. UVa 11703 - sqrt log sin (can be memoized)
+• Other Classical DP Problems in this Book
+Floyd Warshall’s for All-Pairs Shortest Paths problem (see Section 4.5)
+String Alignment (Edit Distance) (see Section 6.5)
+Longest Common Subsequence (see Section 6.5)
+Matrix Chain Multiplication (see Section 9.20)
+Max (Weighted) Independent Set (on tree, see Section 9.22)
+
+UVa 00118 - Mutant Flatworld Explorers (traversal on implicit graph)
+UVa 00168 - Theseus and the ... (Adjacency Matrix, parsing, traversal)
+UVa 00280 - Vertex (graph, reachability test by traversing the graph)
+UVa 00318 - Domino Effect (traversal, be careful of corner cases)
+UVa 00614 - Mapping the Route (traversal on implicit graph)
+UVa 00824 - Coast Tracker (traversal on implicit graph)
+UVa 10113 - Exchange Rates (just graph traversal, but uses fraction and gcd,
+see the relevant sections in Chapter 5)
+UVa 10116 - Robot Motion (traversal on implicit graph)
+UVa 10377 - Maze Traversal (traversal on implicit graph)
+UVa 10687 - Monitoring the Amazon (build graph, geometry, reachability)
+UVa 11831 - Sticker Collector ... * (implicit graph; input order is ‘NSEW’ !)
+UVa 11902 - Dominator (disable vertex one by one, check if the reachability
+from vertex 0 changes)
+UVa 11906 - Knight in a War Grid * (DFS/BFS for reachability, sev-
+eral tricky cases; be careful when M = 0 N = 0 M = N)
+UVa 12376 - As Long as I Learn, I Live (simulated greedy traversal on DAG)
+UVa 12442 - Forwarding Emails * (modified DFS, special graph)
+UVa 12582 - Wedding of Sultan (given graph DFS traversal, count the degree
+of each vertex)
+IOI 2011 - Tropical Garden (graph traversal; DFS; involving cycle)
+
+Flood Fill/Finding Connected Components
+UVa 00260 - Il Gioco dell’X (6 neighbors per cell!)
+UVa 00352 - The Seasonal War (count # of connected components (CC))
+UVa 00459 - Graph Connectivity (also solvable with ‘union find’)
+UVa 00469 - Wetlands of Florida (count size of a CC; discussed in this section)
+UVa 00572 - Oil Deposits (count number of CCs, similar to UVa 352)
+UVa 00657 - The Die is Cast (there are three ‘colors’ here)
+UVa 00722 - Lakes (count the size of CCs)
+UVa 00758 - The Same Game (floodfill++)
+UVa 00776 - Monkeys in a Regular ... (label CCs with indices, format output)
+UVa 00782 - Countour Painting (replace ‘ ’ with ‘#’ in the grid)
+UVa 00784 - Maze Exploration (very similar with UVa 782)
+UVa 00785 - Grid Colouring (also very similar with UVa 782)
+UVa 00852 - Deciding victory in Go (interesting board game ‘Go’)
+UVa 00871 - Counting Cells in a Blob (find the size of the largest CC)
+UVa 01103 - Ancient Messages * (LA 5130, World Finals Orlando11;
+major hint: each hieroglyph has unique number of white connected compo-
+nent; then it is an implementation exercise to parse the input and run flood
+fill to determine the number of white CC inside each black hieroglyph)
+16. UVa 10336 - Rank the Languages (count and rank CCs with similar color)
+
+17. UVa 10707 - 2D - Nim (check graph isomorphism; a tedious problem; involv-
+ing connected components)
+18. UVa 10946 - You want what filled? (find CCs and rank them by their size)
+19. UVa 11094 - Continents * (tricky flood fill as it involves scrolling)
+20. UVa 11110 - Equidivisions (flood fill + satisfy the constraints given)
+21. UVa 11244 - Counting Stars (count number of CCs)
+22. UVa 11470 - Square Sums (you can do ‘flood fill’ layer by layer; however,
+there is other way to solve this problem, e.g. by finding the patterns)
+23. UVa 11518 - Dominos 2 (unlike UVa 11504, we treat SCCs as simple CCs)
+24. UVa 11561 - Getting Gold (flood fill with extra blocking constraint)
+25. UVa 11749 - Poor Trade Advisor (find largest CC with highest average PPA)
+26. UVa 11953 - Battleships * (interesting twist of flood fill problem)
+• Topological Sort
+UVa 00124 - Following Orders (use backtracking to generate valid toposorts)
+UVa 00200 - Rare Order (toposort)
+UVa 00872 - Ordering * (similar to UVa 124, use backtracking)
+UVa 10305 - Ordering Tasks * (run toposort algorithm in this section)
+UVa 11060 - Beverages * (must use Kahn’s algorithm—the ‘modified BFS’
+topological sort)
+6. UVa 11686 - Pick up sticks (toposort + cycle check)
+Also see: DP on (implicit) DAG problems (see Section 4.7.1)
+• Bipartite Graph Check
+UVa 10004 - Bicoloring * (bipartite graph check)
+UVa 10505 - Montesco vs Capuleto (bipartite graph, take max(left, right))
+UVa 11080 - Place the Guards * (bipartite graph check, some tricky cases)
+UVa 11396 - Claw Decomposition * (it is just a bipartite graph check)
+• Finding Articulation Points/Bridges
+UVa 00315 - Network * (finding articulation points)
+UVa 00610 - Street Directions (finding bridges)
+UVa 00796 - Critical Links * (finding bridges)
+UVa 10199 - Tourist Guide (finding articulation points)
+UVa 10765 - Doves and Bombs * (finding articulation points)
+• Finding Strongly Connected Components
+1. UVa 00247 - Calling Circles * (SCC + printing solution)
+2. UVa 01229 - Sub-dictionary (LA 4099, Iran07, identify the SCC of the graph;
+these vertices and the vertices that have path towards them (e.g. needed to
+understand these words too) are the answers of the question)
+3. UVa 10731 - Test (SCC + printing solution)
+4. UVa 11504 - Dominos * (interesting problem: count |SCCs| without in-
+coming edge from a vertex outside that SCC)
+5. UVa 11709 - Trust Groups (find number of SCC)
+6. UVa 11770 - Lighting Away (similar to UVa 11504)
+7. UVa 11838 - Come and Go * (check if graph is strongly connected)
+
+
+Programming Exercises related to Minimum Spanning Tree:
+• Standard
+1. UVa 00908 - Re-connecting ... (basic MST problem)
+2. UVa 01174 - IP-TV (LA 3988, SouthWesternEurope07, MST, classic, just
+need a mapper to map city names to indices)
+3. UVa 01208 - Oreon (LA 3171, Manila06, MST)
+4. UVa 01235 - Anti Brute Force Lock (LA 4138, Jakarta08, the underlying
+problem is MST)
+5. UVa 10034 - Freckles (straightforward MST problem)
+6. UVa 11228 - Transportation System * (split the output for short ver-
+sus long edges)
+7. UVa 11631 - Dark Roads * (weight of (all graph edges - all MST edges))
+8. UVa 11710 - Expensive Subway (output ‘Impossible’ if the graph is still
+disconnected after running MST)
+9. UVa 11733 - Airports (maintain cost at every update)
+10. UVa 11747 - Heavy Cycle Edges * (sum the edge weights of the chords)
+11. UVa 11857 - Driving Range (find weight of the last edge added to MST)
+12. IOI 2003 - Trail Maintenance (use efficient incremental MST)
+• Variants
+UVa 00534 - Frogger (minimax, also solvable with Floyd Warshall’s)
+UVa 00544 - Heavy Cargo (maximin, also solvable with Floyd Warshall’s)
+UVa 01160 - X-Plosives (count the number of edges not taken by Kruskal’s)
+UVa 01216 - The Bug Sensor Problem (LA 3678, Kaohsiung06, minimum
+‘spanning forest’)
+UVa 01234 - RACING (LA 4110, Singapore07, ‘maximum’ spanning tree)
+UVa 10048 - Audiophobia * (minimax, see the discussion above)
+UVa 10099 - Tourist Guide (maximin, also solvable with Floyd Warshall’s)
+UVa 10147 - Highways (‘minimum’ spanning subgraph)
+UVa 10369 - Arctic Networks * (minimum spanning ‘forest’)
+UVa 10397 - Connect the Campus (‘minimum’ spanning subgraph)
+UVa 10462 - Is There A Second ... (second best spanning tree)
+UVa 10600 - ACM Contest and ... * (second best spanning tree)
+UVa 10842 - Traffic Flow (find min weighted edge in ‘max’ spanning tree)
+
+Programming Exercises related to Single-Source Shortest Paths:
+• On Unweighted Graph: BFS, Easier
+1. UVa 00336 - A Node Too Far (discussed in this section)
+2. UVa 00383 - Shipping Routes (simple SSSP solvable with BFS, use mapper)
+3. UVa 00388 - Galactic Import (key idea: we want to minimize planet move-
+ments because every edge used decreases value by 5%)
+4. UVa 00429 - Word Transformation * (each word is a vertex, connect 2
+words with an edge if differ by 1 letter)
+5. UVa 00627 - The Net (also print the path, see discussion in this section)
+6. UVa 00762 - We Ship Cheap (simple SSSP solvable with BFS, use mapper)
+7. UVa 00924 - Spreading the News * (the spread is like BFS traversal)
+8. UVa 01148 - The mysterious X network (LA 3502, SouthWesternEurope05,
+single source, single target, shortest path problem but exclude endpoints)
+9. UVa 10009 - All Roads Lead Where? (simple SSSP solvable with BFS)
+10. UVa 10422 - Knights in FEN (solvable with BFS)
+11. UVa 10610 - Gopher and Hawks (solvable with BFS)
+12. UVa 10653 - Bombs; NO they ... * (efficient BFS implementation)
+13. UVa 10959 - The Party, Part I (SSSP from source 0 to the rest)
+• On Unweighted Graph: BFS, Harder
+UVa 00314 - Robot * (state: (position, direction), transform input graph)
+UVa 00532 - Dungeon Master (3-D BFS)
+UVa 00859 - Chinese Checkers (BFS)
+UVa 00949 - Getaway (interesting graph data structure twist)
+UVa 10044 - Erdos numbers (the input parsing part is troublesome; if you
+encounter difficulties with this, see Section 6.2)
+UVa 10067 - Playing with Wheels (implicit graph in problem statement)
+UVa 10150 - Doublets (BFS state is string!)
+UVa 10977 - Enchanted Forest (BFS with blocked states)
+UVa 11049 - Basic Wall Maze (some restricted moves, print the path)
+UVa 11101 - Mall Mania * (multi-sources BFS from m1, get minimum
+at border of m2)
+UVa 11352 - Crazy King (filter the graph first, then it becomes SSSP)
+UVa 11624 - Fire (multi-sources BFS)
+UVa 11792 - Krochanska is Here (be careful with the ‘important station’)
+UVa 12160 - Unlock the Lock * (LA 4408, KualaLumpur08, Vertices =
+The numbers; Link two numbers with an edge if we can use button push to
+transform one into another; use BFS to get the answer)
+• On Weighted Graph: Dijkstra’s, Easier
+1. UVa 00929 - Number Maze * (on a 2D maze/implicit graph)
+2. UVa 01112 - Mice and Maze * (LA 2425, SouthwesternEurope01, run
+Dijkstra’s from destination)
+3. UVa 10389 - Subway (use basic geometry skill to build the weighted graph,
+then run Dijkstra’s)
+4. UVa 10986 - Sending email * (straightforward Dijkstra’s application)
+
+
+On Weighted Graph: Dijkstra’s, Harder
+1. UVa 01202 - Finding Nemo (LA 3133, Beijing04, SSSP, Dijkstra’s on grid:
+treat each cell as a vertex; the idea is simple but one should be careful with
+the implementation)
+2. UVa 10166 - Travel (this can be modeled as a shortest paths problem)
+3. UVa 10187 - From Dusk Till Dawn (special cases: start = destination: 0
+litre; starting or destination city not found or destination city not reachable
+from starting city: no route; the rest: Dijkstra’s)
+4. UVa 10278 - Fire Station (Dijkstra’s from fire stations to all intersections;
+need pruning to pass the time limit)
+5. UVa 10356 - Rough Roads (we can attach one extra information to each ver-
+tex: whether we come to that vertex using cycle or not; then, run Dijkstra’s
+to solve SSSP on this modified graph)
+6. UVa 10603 - Fill (state: (a, b, c), source: (0, 0, c), 6 possible transitions)
+7. UVa 10801 - Lift Hopping * (model the graph carefully!)
+8. UVa 10967 - The Great Escape (model the graph; shortest path)
+9. UVa 11338 - Minefield (it seems that the test data is weaker than what
+the problem description says (n ≤ 10000); we use O(n 2 ) loop to build the
+weighted graph and runs Dijkstra’s without getting TLE)
+10. UVa 11367 - Full Tank? (discussed in this section)
+11. UVa 11377 - Airport Setup (model the graph carefully: A city to other city
+with no airport has edge weight 1. A city to other city with airport has edge
+weight 0. Do Dijkstra’s from source. If the start and end city are the same
+and has no airport, the answer should be 0.)
+12. UVa 11492 - Babel * (graph modeling; each word is a vertex; connect two
+vertices with an edge if they share common language and have different 1st
+char; connect a source vertex to all words that belong to start language; con-
+nect all words that belong to finish language to sink vertex; we can transfer
+vertex weight to edge weight; then SSSP from source vertex to sink vertex)
+13. UVa 11833 - Route Change (stop Dijkstra’s at service route path plus some
+modification)
+14. UVa 12047 - Highest Paid Toll * (clever usage of Dijkstra’s; run Dijk-
+stra’s from source and from destination; try all edge (u, v) if dist[source][u]+
+weight(u, v)+ dist[v][destination] ≤ p; record the largest edge weight found)
+15. UVa 12144 - Almost Shortest Path (Dijkstra’s; store multiple predecessors)
+16. IOI 2011 - Crocodile (can be modeled as an SSSP problem)
+• SSSP on Graph with Negative Weight Cycle (Bellman Ford’s)
+1. UVa 00558 - Wormholes * (checking the existence of negative cycle)
+2. UVa 10449 - Traffic * (find the minimum weight path, which may be
+negative; be careful: ∞ + negative weight is lower than ∞!)
+3. UVa 10557 - XYZZY * (check ‘positive’ cycle, check connectedness!)
+4. UVa 11280 - Flying to Fredericton (modified Bellman Ford’s)
+
+
+Programming Exercises for Floyd Warshall’s algorithm:
+• Floyd Warshall’s Standard Application (for APSP or SSSP on small graph)
+1. UVa 00341 - Non-Stop Travel (graph is small)
+2. UVa 00423 - MPI Maelstrom (graph is small)
+3. UVa 00567 - Risk (simple SSSP solvable with BFS, but graph is small, so
+can be solved easier with Floyd Warshall’s)
+4. UVa 00821 - Page Hopping * (LA 5221, World Finals Orlando00, one of
+the ‘easiest’ ICPC World Finals problem)
+5. UVa 01233 - USHER (LA 4109, Singapore07, Floyd Warshall’s can be used
+to find the minimum cost cycle in the graph; the maximum input graph size
+is p ≤ 500 but still doable in UVa online judge)
+6. UVa 01247 - Interstar Transport (LA 4524, Hsinchu09, APSP, Floyd War-
+shall’s, modified a bit to prefer shortest path with less intermediate vertices)
+7. UVa 10171 - Meeting Prof. Miguel * (easy with APSP information)
+8. UVa 10354 - Avoiding Your Boss (find boss’s shortest paths, remove edges
+involved in boss’s shortest paths, re-run shortest paths from home to market)
+9. UVa 10525 - New to Bangladesh? (use two adjacency matrices: time and
+length; use modified Floyd Warshall’s)
+10. UVa 10724 - Road Construction (adding one edge only changes ‘a few things’)
+11. UVa 10793 - The Orc Attack (Floyd Warshall’s simplifies this problem)
+12. UVa 10803 - Thunder Mountain (graph is small)
+13. UVa 10947 - Bear with me, again.. (graph is small)
+14. UVa 11015 - 05-32 Rendezvous (graph is small)
+15. UVa 11463 - Commandos * (solution is easy with APSP information)
+16. UVa 12319 - Edgetown’s Traffic Jams (Floyd Warshall’s 2x and compare)
+• Variants
+UVa 00104 - Arbitrage * (small arbitrage problem solvable with FW)
+UVa 00125 - Numbering Paths (modified Floyd Warshall’s)
+UVa 00186 - Trip Routing (graph is small, print path)
+UVa 00274 - Cat and Mouse (variant of transitive closure problem)
+UVa 00436 - Arbitrage (II) (another arbitrage problem)
+UVa 00334 - Identifying Concurrent ... * (transitive closure++)
+UVa 00869 - Airline Comparison (run Warshall’s 2x, compare AdjMatrices)
+UVa 00925 - No more prerequisites ... (transitive closure++)
+UVa 01056 - Degrees of Separation * (LA 3569, World Finals SanAn-
+tonio06, diameter of a small graph)
+10. UVa 01198 - Geodetic Set Problem (LA 2818, Kaohsiung03, trans closure++)
+11. UVa 11047 - The Scrooge Co Problem (print path; special case: if origin =
+destination, print twice)
+
+Programming Exercises related to Network Flow:
+• Standard Max Flow Problem (Edmonds Karp’s)
+1. UVa 00259 - Software Allocation * (discussed in this section)
+2. UVa 00820 - Internet Bandwidth * (LA 5220, World Finals Orlando00,
+basic max flow, discussed in this section)
+3. UVa 10092 - The Problem with the ... (assignment problem, matching with
+capacity, similar with UVa 259)
+4. UVa 10511 - Councilling (matching, max flow, print the assignment)
+5. UVa 10779 - Collectors Problem (max flow modeling is not straightforward;
+the main idea is to build a flow graph such that each augmenting path corre-
+sponds to a series of exchange of duplicate stickers, starting with Bob giving
+away one of his duplicates, and ending with him receiving a new sticker;
+repeat until this is no longer possible)
+6. UVa 11045 - My T-Shirt Suits Me (assignment problem; but actually the
+input constraint is actually small enough for recursive backtracking)
+7. UVa 11167 - Monkeys in the Emei ... * (max flow modeling; there are
+lots of edges in the flow graph; therefore, it is better to compress the capacity-
+1 edges whenever possible; use O(V 2 E) Dinic’s max flow algorithm so that
+the high number of edges does not penalize the performance of your solution)
+8. UVa 11418 - Clever Naming Patterns (two layers of matching, it may be
+easier to use max flow solution)
+• Variants
+1. UVa 10330 - Power Transmission (max flow with vertex capacities)
+2. UVa 10480 - Sabotage (straightforward min cut problem)
+3. UVa 11380 - Down Went The Titanic * (discussed in this section)
+4. UVa 11506 - Angry Programmer * (min cut with vertex capacities)
+5. UVa 12125 - March of the Penguins * (max flow modeling with ver-
+tex capacities; another interesting problem, similar level with UVa 11380)
+
+
+Programming Exercises related to Special Graphs:
+• Single-Source Shortest/Longest Paths on DAG
+
+UVa 00103 - Stacking Boxes (longest paths on DAG; backtracking OK)
+UVa 00452 - Project Scheduling * (PERT; longest paths on DAG; DP)
+UVa 10000 - Longest Paths (longest paths on DAG; backtracking OK)
+UVa 10051 - Tower of Cubes (longest paths on DAG; DP)
+UVa 10259 - Hippity Hopscotch (longest paths on implicit DAG; DP)
+UVa 10285 - Longest Run ... * (longest paths on implicit DAG; how-
+ever, the graph is small enough for recursive backtracking solution)
+7. UVa 10350 - Liftless Eme * (shortest paths; implicit DAG; DP)
+Also see: Longest Increasing Subsequence (see Section 3.5.3)
+• Counting Paths in DAG
+1. UVa 00825 - Walking on the Safe Side (counting paths in implicit DAG; DP)
+2. UVa 00926 - Walking Around Wisely (similar to UVa 825)
+3. UVa 00986 - How Many? (counting paths in DAG; DP; s: x, y, lastmove,
+peaksfound; t: try NE/SE)
+4. UVa 00988 - Many paths, one ... * (counting paths in DAG; DP)
+5. UVa 10401 - Injured Queen Problem * (counting paths in implicit DAG;
+DP; s: col, row; t: next col, avoid 2 or 3 adjacent rows)
+6. UVa 10926 - How Many Dependencies? (counting paths in DAG; DP)
+7. UVa 11067 - Little Red Riding Hood (similar to UVa 825)
+8. UVa 11655 - Waterland (counting paths in DAG and one more similar task:
+counting the number of vertices involved in the paths)
+9. UVa 11957 - Checkers * (counting paths in DAG; DP)
+• Converting General Graph to DAG
+
+UVa 00590 - Always on the Run (s: pos, day left)
+UVa 00907 - Winterim Backpack... * (s: pos, night left)
+UVa 00910 - TV Game (s: pos, move left)
+UVa 10201 - Adventures in Moving ... (s: pos, fuel left)
+UVa 10543 - Traveling Politician (s: pos, given speech)
+UVa 10681 - Teobaldo’s Trip (s: pos, day left)
+UVa 10702 - Traveling Salesman (s: pos, T left)
+UVa 10874 - Segments (s: row, left/right; t: go left/right)
+UVa 10913 - Walking ... * (s: r, c, neg left, stat; t: down/(left/right))
+UVa 11307 - Alternative Arborescence (Min Chromatic Sum, max 6 colors)
+UVa 11487 - Gathering Food * (s: row, col, cur food, len; t: 4 dirs)
+UVa 11545 - Avoiding ... (s: cPos, cTime, cWTime; t: move forward/rest)
+UVa 11782 - Optimal Cut (s: id, rem K; t: take root/try left-right subtree)
+SPOJ 0101 - Fishmonger (discussed in this section)
+
+
+• Tree
+
+UVa 00112 - Tree Summing (backtracking)
+UVa 00115 - Climbing Trees (tree traversal, Lowest Common Ancestor)
+UVa 00122 - Trees on the level (tree traversal)
+UVa 00536 - Tree Recovery (reconstructing tree from pre + inorder)
+UVa 00548 - Tree (reconstructing tree from in + postorder traversal)
+UVa 00615 - Is It A Tree? (graph property check)
+UVa 00699 - The Falling Leaves (preorder traversal)
+UVa 00712 - S-Trees (simple binary tree traversal variant)
+UVa 00839 - Not so Mobile (can be viewed as recursive problem on tree)
+UVa 10308 - Roads in the North (diameter of tree, discussed in this section)
+UVa 10459 - The Tree Root * (identify the diameter of this tree)
+UVa 10701 - Pre, in and post (reconstructing tree from pre + inorder)
+UVa 10805 - Cockroach Escape ... * (involving diameter)
+UVa 11131 - Close Relatives (read tree; produce two postorder traversals)
+UVa 11234 - Expressions (converting post-order to level-order, binary tree)
+UVa 11615 - Family Tree (counting size of subtrees)
+UVa 11695 - Flight Planning * (cut the worst edge along the tree diam-
+eter, link two centers)
+18. UVa 12186 - Another Crisis (the input graph is a tree)
+19. UVa 12347 - Binary Search Tree (given pre-order traversal of a BST, use
+BST property to get the BST, output the post-order traversal that BST)
+• Eulerian Graph
+
+UVa 00117 - The Postal Worker ... (Euler tour, cost of tour)
+UVa 00291 - The House of Santa ... (Euler tour, small graph, backtracking)
+UVa 10054 - The Necklace * (printing the Euler tour)
+UVa 10129 - Play on Words (Euler Graph property check)
+UVa 10203 - Snow Clearing * (the underlying graph is Euler graph)
+UVa 10596 - Morning Walk * (Euler Graph property check)
+• Bipartite Graph:
+1. UVa 00663 - Sorting Slides (try disallowing an edge to see if MCBM changes;
+which implies that the edge has to be used)
+2. UVa 00670 - The Dog Task (MCBM)
+3. UVa 00753 - A Plug for Unix (initially a non standard matching problem
+but this problem can be reduced to a simple MCBM problem)
+4. UVa 01194 - Machine Schedule (LA 2523, Beijing02, Min Vertex Cover/MVC)
+5. UVa 10080 - Gopher II (MCBM)
+6. UVa 10349 - Antenna Placement * (Max Independent Set: V - MCBM)
+7. UVa 11138 - Nuts and Bolts * (pure MCBM problem, if you are new
+with MCBM, it is good to start from this problem)
+8. UVa 11159 - Factors and Multiples * (MIS, but ans is the MCBM)
+9. UVa 11419 - SAM I AM (MVC, K ̈onig theorem)
+10. UVa 12083 - Guardian of Decency (LA 3415, NorthwesternEurope05, MIS)
+11. UVa 12168 - Cat vs. Dog (LA 4288, NorthwesternEurope08, MIS)
+12. Top Coder Open 2009: Prime Pairs (discussed in this section)
+
+
+Programming Exercises related to Ad Hoc Mathematics problems:
+• The Simpler Ones
+1. UVa 10055 - Hashmat the Brave Warrior (absolute function; use long long)
+2. UVa 10071 - Back to High School ... (super simple: outputs 2 × v × t)
+3. UVa 10281 - Average Speed (distance = speed × time elapsed)
+UVa 10469 - To Carry or not to Carry (super simple if you use xor)
+UVa 10773 - Back to Intermediate ... * (several tricky cases)
+UVa 11614 - Etruscan Warriors Never ... (find roots of a quadratic equation)
+UVa 11723 - Numbering Road * (simple math)
+UVa 11805 - Bafana Bafana (very simple O(1) formula exists)
+UVa 11875 - Brick Game * (get median of a sorted input)
+UVa 12149 - Feynman (finding the pattern; square numbers)
+UVa 12502 - Three Families (must understand the ‘wording trick’ first)
+• Mathematical Simulation (Brute Force), Easier
+UVa 00100 - The 3n + 1 problem (do as asked; note that j can be < i)
+UVa 00371 - Ackermann Functions (similar to UVa 100)
+UVa 00382 - Perfection * (do trial division)
+UVa 00834 - Continued Fractions (do as asked)
+UVa 00906 - Rational Neighbor (compute c, from d = 1 until ab < d c )
+UVa 01225 - Digit Counting * (LA 3996, Danang07, N is small)
+UVa 10035 - Primary Arithmetic (count the number of carry operations)
+UVa 10346 - Peter’s Smoke * (interesting simulation problem)
+UVa 10370 - Above Average (compute average, see how many are above it)
+UVa 10783 - Odd Sum (input range is very small, just brute force it)
+UVa 10879 - Code Refactoring (just use brute force)
+UVa 11150 - Cola (similar to UVa 10346, be careful with boundary cases!)
+UVa 11247 - Income Tax Hazard (brute force around the answer to be safe)
+UVa 11313 - Gourmet Games (similar to UVa 10346)
+UVa 11689 - Soda Surpler (similar to UVa 10346)
+UVa 11877 - The Coco-Cola Store (similar to UVa 10346)
+UVa 11934 - Magic Formula (just do plain brute-force)
+UVa 12290 - Counting Game (no ‘-1’ in the answer)
+UVa 12527 - Different Digits (try all, check repeated digits)
+• Mathematical Simulation (Brute Force), Harder
+1. UVa 00493 - Rational Spiral (simulate the spiral process)
+2. UVa 00550 - Multiplying by Rotation (rotamult property; try one by one
+starting from 1 digit)
+√
+3. UVa 00616 - Coconuts, Revisited * (brute force up to n, get pattern)
+4. UVa 00697 - Jack and Jill (requires some output formatting and basic knowl-
+edge about Physics)
+5. UVa 00846 - Steps (uses the sum of arithmetic progression formula)
+6. UVa 10025 - The ? 1 ? 2 ? ... (simplify the formula first, iterative)
+7. UVa 10257 - Dick and Jane (we can brute force the integer ages of spot,
+puff, and yertle; need some mathematical insights)
+8. UVa 10624 - Super Number (backtracking with divisibility check)
+9. UVa 11130 - Billiard bounces * (use billiard table reflection technique:
+mirror the billiard table to the right (and/or top) so that we will only deal
+with one straight line instead of bouncing lines)
+10. UVa 11254 - Consecutive Integers * (use sum of arithmetic progres-
+sion: n = 2 r × (2 × a + r − 1) or a = (2 × n + r − r 2 )/(2 × r); as n is given,
+√
+brute force all values of r from 2n down to 1, stop at the first valid a)
+11. UVa 11968 - In The Airport (average; fabs; if ties, choose the smaller one!)
+Also see some mathematical problems in Section 3.2.
+
+
+• Finding Pattern or Formula, Easier
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+UVa 10014 - Simple calculations (derive the required formula)
+UVa 10170 - The Hotel with Infinite ... (one liner formula exists)
+UVa 10499 - The Land of Justice (simple formula exists)
+UVa 10696 - f91 (very simple formula simplification)
+UVa 10751 - Chessboard * (trival for N = 1 and N = 2; derive the
+formula first for N > 2; hint: use diagonal as much as possible)
+UVa 10940 - Throwing Cards Away II * (find pattern with brute force)
+UVa 11202 - The least possible effort (consider symmetry and flip)
+UVa 12004 - Bubble Sort * (try small n; get the pattern; use long long)
+UVa 12027 - Very Big Perfect Square (sqrt trick)
+• Finding Pattern or Formula, Harder
+UVa 00651 - Deck (use the given sample I/O to derive the simple formula)
+UVa 00913 - Joana and The Odd ... (derive the short formulas)
+UVa 10161 - Ant on a Chessboard * (involves sqrt, ceil...)
+UVa 10493 - Cats, with or without Hats (tree, derive the formula)
+UVa 10509 - R U Kidding Mr. ... (there are only three different cases)
+UVa 10666 - The Eurocup is here (analyze the binary representation of X)
+UVa 10693 - Traffic Volume (derive the short Physics formula)
+UVa 10710 - Chinese Shuffle (the formula is a bit hard to derive; involving
+modPow; see Section 5.3 or Section 9.21)
+UVa 10882 - Koerner’s Pub (inclusion-exclusion principle)
+UVa 10970 - Big Chocolate (direct formula exists, or use DP)
+UVa 10994 - Simple Addition (formula simplification)
+UVa 11231 - Black and White Painting * (there is O(1) formula)
+UVa 11246 - K-Multiple Free Set (derive the formula)
+UVa 11296 - Counting Solutions to an ... (simple formula exists)
+UVa 11298 - Dissecting a Hexagon (simple maths; derive the pattern first)
+UVa 11387 - The 3-Regular Graph (impossible for odd n or when n = 2; if n
+is a multiple of 4, consider complete graph K 4 ; if n = 6 + k × 4, consider one
+3-Regular component of 6 vertices and the rest are K 4 as in previous case)
+UVa 11393 - Tri-Isomorphism (draw several small K n , derive the pattern)
+UVa 11718 - Fantasy of a Summation * (convert loops to a closed form
+formula, use modPow to compute the results, see Section 5.3 and 9.21)
+• Grid
+UVa 00264 - Count on Cantor * (math, grid, pattern)
+UVa 00808 - Bee Breeding (math, grid, similar to UVa 10182)
+UVa 00880 - Cantor Fractions (math, grid, similar to UVa 264)
+UVa 10182 - Bee Maja * (math, grid)
+UVa 10233 - Dermuba Triangle * (the number of items in row forms
+arithmetic progression series; use hypot)
+6. UVa 10620 - A Flea on a Chessboard (just simulate the jumps)
+7. UVa 10642 - Can You Solve It? (the reverse of UVa 264)
+8. UVa 10964 - Strange Planet (convert the coordinates to (x, y), then this
+problem is just about finding Euclidean distance between two coordinates)
+
+9. SPOJ 3944 - Bee Walk (a grid problem)
+• Number Systems or Sequences
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+14.
+15.
+16.
+17.
+18.
+19.
+UVa 00136 - Ugly Numbers (use similar technique as UVa 443)
+UVa 00138 - Street Numbers (arithmetic progression formula, precalculated)
+UVa 00413 - Up and Down Sequences (simulate; array manipulation)
+UVa 00443 - Humble Numbers * (try all 2 i × 3 j × 5 k × 7 l , sort)
+UVa 00640 - Self Numbers (DP bottom up, generate the numbers, flag once)
+UVa 00694 - The Collatz Sequence (similar to UVa 100)
+UVa 00962 - Taxicab Numbers (pre-calculate the answer)
+UVa 00974 - Kaprekar Numbers (there are not that many Kaprekar numbers)
+UVa 10006 - Carmichael Numbers (non prime which has ≥ 3 prime factors)
+UVa 10042 - Smith Numbers * (prime factorization, sum the digits)
+UVa 10049 - Self-describing Sequence (enough to get past > 2G by storing
+only the first 700K numbers of the Self-describing sequence)
+UVa 10101 - Bangla Numbers (follow the problem description carefully)
+UVa 10408 - Farey Sequences * (first, generate (i, j) pairs such that
+gcd(i, j) = 1, then sort)
+UVa 10930 - A-Sequence (ad-hoc, follow the rules given in description)
+UVa 11028 - Sum of Product (this is ‘dartboard sequence’)
+UVa 11063 - B2 Sequences (see if a number is repeated, be careful with -ve)
+√
+√
+UVa 11461 - Square Numbers (answer is b − a − 1)
+UVa 11660 - Look-and-Say sequences (simulate, break after j-th character)
+UVa 11970 - Lucky Numbers (square numbers, divisibility check, bf)
+• Logarithm, Exponentiation, Power
+
+UVa 00107 - The Cat in the Hat (use logarithm, power)
+UVa 00113 - Power Of Cryptography (use exp(ln(x) × y))
+UVa 00474 - Heads Tails Probability (this is just a log & pow exercise)
+UVa 00545 - Heads (use logarithm, power, similar to UVa 474)
+UVa 00701 - Archaelogist’s Dilemma * (use log to count # of digits)
+UVa 01185 - BigNumber (number of digits of factorial, use logarithm to solve
+it; log(n!) = log(n × (n − 1) . . . × 1) = log(n) + log(n − 1) + . . . + log(1))
+UVa 10916 - Factstone Benchmark * (use logarithm, power)
+UVa 11384 - Help is needed for Dexter (finding the smallest power of two
+greater than n, can be solved easily using ceil(eps + log 2 (n)))
+UVa 11556 - Best Compression Ever (related to power of two, use long long)
+UVa 11636 - Hello World (uses logarithm)
+UVa 11666 - Logarithms (find the formula!)
+UVa 11714 - Blind Sorting (use decision tree model to find min and second
+min; eventually the solution only involves logarithm)
+UVa 11847 - Cut the Silver Bar * (O(1) math formula exists: log 2 (n) )
+UVa 11986 - Save from Radiation (log 2 (N + 1); manual check for precision)
+UVa 12416 - Excessive Space Remover (the answer is log 2 of the max con-
+secutive spaces in a line)
+
+• Polynomial
+1. UVa 00126 - The Errant Physicist (polynomial multiplication and tedious
+output formatting)
+2. UVa 00392 - Polynomial Showdown (follow the orders: output formatting)
+3. UVa 00498 - Polly the Polynomial * (polynomial evaluation)
+4. UVa 10215 - The Largest/Smallest Box (two trivial cases for smallest; derive
+the formula for largest which involves quadratic equation)
+5. UVa 10268 - 498’ * (polynomial derivation; Horner’s rule)
+6. UVa 10302 - Summation of Polynomials (use long double)
+7. UVa 10326 - The Polynomial Equation (given roots of the polynomial, re-
+construct the polynomial; formatting)
+8. UVa 10586 - Polynomial Remains * (division; manipulate coefficients)
+9. UVa 10719 - Quotient Polynomial (polynomial division and remainder)
+10. UVa 11692 - Rain Fall (use algebraic manipulation to derive a quadratic
+equation; solve it; special case when H < L)
+• Base Number Variants
+1. UVa 00377 - Cowculations * (base 4 operations)
+2. UVa 00575 - Skew Binary * (base modification)
+3. UVa 00636 - Squares (base number conversion up to base 99; Java BigInteger
+cannot be used as it is MAX RADIX is limited to 36)
+4. UVa 10093 - An Easy Problem (try all)
+5. UVa 10677 - Base Equality (try all from r2 to r1)
+6. UVa 10931 - Parity * (convert decimal to binary, count number of ‘1’s)
+7. UVa 11005 - Cheapest Base (try all possible bases from 2 to 36)
+8. UVa 11121 - Base -2 (search for the term ‘negabinary’)
+9. UVa 11398 - The Base-1 Number System (just follow the new rules)
+10. UVa 12602 - Nice Licence Plates (simple base conversion)
+11. SPOJ 0739 - The Moronic Cowmpouter (find the representation in base -2)
+12. IOI 2011 - Alphabets (practice task; use the more space-efficient base 26)
+• Just Ad Hoc
+1. UVa 00276 - Egyptian Multiplication (multiplication of Egyptian hieroglyphs)
+2. UVa 00496 - Simply Subsets (set manipulation)
+3. UVa 00613 - Numbers That Count (analyze the number; determine the type;
+similar spirit with the cycle finding problem in Section 5.7)
+4. UVa 10137 - The Trip * (be careful with precision error)
+5. UVa 10190 - Divide, But Not Quite ... (simulate the process)
+6. UVa 11055 - Homogeneous Square (not classic, observation needed to avoid
+brute-force solution)
+7. UVa 11241 - Humidex (the hardest case is computing Dew point given tem-
+perature and Humidex; derive it with Algebra)
+√
+8. UVa 11526 - H(n) * (brute force up to n, find the pattern, avoid TLE)
+9. UVa 11715 - Car (physics simulation)
+10. UVa 11816 - HST (simple math, precision required)
+11. UVa 12036 - Stable Grid * (use pigeon hole principle)
+
+Programming Exercises related to BigInteger NOT 6 mentioned elsewhere:
+• Basic Features
+UVa 00424 - Integer Inquiry (BigInteger addition)
+UVa 00465 - Overflow (BigInteger add/multiply, compare with 2 31 − 1)
+UVa 00619 - Numerically Speaking (BigInteger)
+UVa 00713 - Adding Reversed ... * (BigInteger + StringBuffer reverse())
+UVa 00748 - Exponentiation (BigInteger exponentiation)
+UVa 01226 - Numerical surprises (LA 3997, Danang07, mod operation)
+UVa 10013 - Super long sums (BigInteger addition)
+UVa 10083 - Division (BigInteger + number theory)
+UVa 10106 - Product (BigInteger multiplication)
+UVa 10198 - Counting (recurrences, BigInteger)
+UVa 10430 - Dear GOD (BigInteger, derive formula first)
+UVa 10433 - Automorphic Numbers (BigInteger, pow, substract, mod)
+UVa 10494 - If We Were a Child Again (BigInteger division)
+UVa 10519 - Really Strange (recurrences, BigInteger)
+UVa 10523 - Very Easy * (BigInteger addition, multiplication, and power)
+UVa 10669 - Three powers (BigInteger is for 3 n , binary rep of set!)
+UVa 10925 - Krakovia (BigInteger addition and division)
+UVa 10992 - The Ghost of Programmers (input size is up to 50 digits)
+UVa 11448 - Who said crisis? (BigInteger subtraction)
+UVa 11664 - Langton’s Ant (simple simulation involving BigInteger)
+UVa 11830 - Contract revision (use BigInteger string representation)
+UVa 11879 - Multiple of 17 * (BigInteger mod, divide, subtract, equals)
+UVa 12143 - Stopping Doom’s Day (LA 4209, Dhaka08, formula simplification—
+the hard part; use BigInteger—the easy part)
+24. UVa 12459 - Bees’ ancestors (draw the ancestor tree to see the pattern)
+
+• Bonus Feature: Base Number Conversion
+UVa 00290 - Palindroms ←→ ... (also involving palindrome)
+UVa 00343 - What Base Is This? * (try all possible pair of bases)
+UVa 00355 - The Bases Are Loaded (basic base number conversion)
+UVa 00389 - Basically Speaking * (use Java Integer class)
+UVa 00446 - Kibbles ’n’ Bits ’n’ Bits ... (base number conversion)
+UVa 10473 - Simple Base Conversion (Decimal to Hexadecimal and vice
+versa; if you use C/C++, you can use strtol)
+7. UVa 10551 - Basic Remains * (also involving BigInteger mod)
+8. UVa 11185 - Ternary (Decimal to base 3)
+9. UVa 11952 - Arithmetic (check base 2 to 18 only; special case for base 1)
+• Bonus Feature: Primality Testing
+1. UVa 00960 - Gaussian Primes (there is a number theory behind this)
+2. UVa 01210 - Sum of Consecutive ... * (LA 3399, Tokyo05, simple)
+3. UVa 10235 - Simply Emirp * (case analysis: not prime/prime/emirp;
+emirp is defined as prime number that if reversed is still a prime number)
+4. UVa 10924 - Prime Words (check if sum of letter values is a prime)
+5. UVa 11287 - Pseudoprime Numbers * (output yes if !isPrime(p) +
+a.modPow(p, p) = a; use Java BigInteger)
+6. UVa 12542 - Prime Substring (HatYai12, brute force, use isProbablePrime
+to test primality)
+• Bonus Feature: Others
+1. UVa 01230 - MODEX * (LA 4104, Singapore07, BigInteger modPow)
+2. UVa 10023 - Square root (code Newton’s method with BigInteger)
+3. UVa 10193 - All You Need Is Love (convert two binary strings S1 and S2 to
+decimal and check see if gcd(s1, s2) > 1)
+4. UVa 10464 - Big Big Real Numbers (solvable with Java BigDecimal class)
+5. UVa 10814 - Simplifying Fractions * (BigInteger gcd)
+6. UVa 11821 - High-Precision Number * (Java BigDecimal class)
+
+Other Programming Exercises related to Combinatorics:
+• Fibonacci Numbers
+1. UVa 00495 - Fibonacci Freeze (very easy with Java BigInteger)
+2. UVa 00580 - Critical Mass (related to Tribonacci series; Tribonacci numbers
+are the generalization of Fibonacci numbers; it is defined by T 1 = 1, T 2 = 1,
+T 3 = 2, and T n = T n−1 + T n−2 + T n−3 for n ≥ 4)
+3. UVa 00763 - Fibinary Numbers * (Zeckendorf representation, greedy,
+use Java BigInteger)
+4. UVa 00900 - Brick Wall Patterns (combinatorics, the pattern ≈ Fibonacci)
+5. UVa 00948 - Fibonaccimal Base (Zeckendorf representation, greedy)
+6. UVa 01258 - Nowhere Money (LA 4721, Phuket09, Fibonacci variant, Zeck-
+endorf representation, greedy)
+7. UVa 10183 - How many Fibs? (get the number of Fibonaccis when generating
+them; BigInteger)
+8. UVa 10334 - Ray Through Glasses * (combinatorics, Java BigInteger)
+9. UVa 10450 - World Cup Noise (combinatorics, the pattern ≈ Fibonacci)
+10. UVa 10497 - Sweet Child Make Trouble (the pattern ≈ Fibonacci)
+
+11. UVa 10579 - Fibonacci Numbers (very easy with Java BigInteger)
+12. UVa 10689 - Yet Another Number ... * (easy if you know Pisano (a.k.a
+Fibonacci) period)
+13. UVa 10862 - Connect the Cable Wires (the pattern ends up ≈ Fibonacci)
+14. UVa 11000 - Bee (combinatorics, the pattern is similar to Fibonacci)
+15. UVa 11089 - Fi-binary Number (the list of Fi-binary Numbers follow the
+Zeckendorf’s theorem)
+16. UVa 11161 - Help My Brother (II) (Fibonacci + median)
+17. UVa 11780 - Miles 2 Km (the background problem is Fibonacci numbers)
+• Binomial Coefficients:
+
+UVa 00326 - Extrapolation using a ... (difference table)
+UVa 00369 - Combinations (be careful with overflow issue)
+UVa 00485 - Pascal Triangle of Death (binomial coefficients + BigInteger)
+UVa 00530 - Binomial Showdown (work with doubles; optimize computation)
+UVa 00911 - Multinomial Coefficients (there is a formula for this, result =
+n!/(z 1 ! × z 2 ! × z 3 ! × ... × zk!))
+UVa 10105 - Polynomial Coefficients (n!/(n 1 ! × n 2 ! × ... × n k !); however, the
+derivation is complex)
+UVa 10219 - Find the Ways * (count the length of n C k ; BigInteger)
+UVa 10375 - Choose and Divide (the main task is to avoid overflow)
+UVa 10532 - Combination, Once Again (modified binomial coefficient)
+UVa 10541 - Stripe * (a good combinatorics problem; compute how many
+white cells are there via N white = N - sum of all K integers; imagine we
+have one more white cell at the very front, we can now determine the answer
+by placing black stripes after K out of N white + 1 whites, or N white+1 C K
+(use Java BigInteger); however, if K > N white + 1 then the answer is 0)
+UVa 11955 - Binomial Theorem * (pure application; DP)
+• Catalan Numbers
+1. UVa 00991 - Safe Salutations * (Catalan Numbers)
+2. UVa 10007 - Count the Trees * (answer is Cat(n) × n!; BigInteger)
+3. UVa 10223 - How Many Nodes? (Precalculate the answers as there are only
+19 Catalan Numbers < 2 32 − 1)
+4. UVa 10303 - How Many Trees (generate Cat(n) as shown in this section, use
+Java BigInteger)
+5. UVa 10312 - Expression Bracketing * (the number of binary bracket-
+ing can be counted by Cat(n); the total number of bracketing can be com-
+puted using Super-Catalan numbers)
+6. UVa 10643 - Facing Problems With ... (Cat(n) is part of a bigger problem)
+• Others, Easier
+1. UVa 11115 - Uncle Jack (N D , use Java BigInteger)
+2. UVa 11310 - Delivery Debacle * (requires DP: let dp[i] be the number
+of ways the cakes can be packed for a box 2 × i. Note that it is possible to
+use two ‘L shaped’ cakes to form a 2 × 3 shape)
+3. UVa 11401 - Triangle Counting * (spot the pattern, coding is easy)
+4. UVa 11480 - Jimmy’s Balls (try all r, but simpler formula exists)
+5. UVa 11597 - Spanning Subtree * (uses knowledge of graph theory, the
+answer is very trivial)
+
+6. UVa 11609 - Teams (N × 2 N −1 , use Java BigInteger for the modPow part)
+7. UVa 12463 - Little Nephew (double socks & shoes to simplify the problem)
+• Others, Harder
+UVa 01224 - Tile Code (derive formula from small instances)
+UVa 10079 - Pizza Cutting (derive the one liner formula)
+UVa 10359 - Tiling (derive the formula, use Java BigInteger)
+UVa 10733 - The Colored Cubes (Burnside’s lemma)
+UVa 10784 - Diagonal * (the number of diagonals in n-gon = n∗(n−3)/2,
+use it to derive the solution)
+UVa 10790 - How Many Points of ... (uses arithmetic progression formula)
+UVa 10918 - Tri Tiling (there are two related recurrences here)
+UVa 11069 - A Graph Problem * (use Dynamic Programming)
+UVa 11204 - Musical Instruments (only first choice matters)
+UVa 11270 - Tiling Dominoes (sequence A004003 in OEIS)
+UVa 11538 - Chess Queen * (count along rows, columns, and diagonals)
+UVa 11554 - Hapless Hedonism (similar to UVa 11401)
+UVa 12022 - Ordering T-shirts (number of ways n competitors can rank in a
+competition, allowing for the possibility of ties, see http://oeis.org/A000670)
+
+• Prime Numbers
+1. UVa 00406 - Prime Cuts (sieve; take the middle ones)
+2. UVa 00543 - Goldbach’s Conjecture * (sieve; complete search; Chris-
+tian Goldbach’s conjecture (updated by Leonhard Euler): Every even num-
+ber ≥ 4 can be expressed as the sum of two prime numbers)
+3. UVa 00686 - Goldbach’s Conjecture (II) (similar to UVa 543)
+4. UVa 00897 - Annagramatic Primes (sieve; just need to check digit rotations)
+5. UVa 00914 - Jumping Champion (sieve; be careful with L and U < 2)
+6. UVa 10140 - Prime Distance * (sieve; linear scan)
+7. UVa 10168 - Summation of Four Primes (backtracking with pruning)
+8. UVa 10311 - Goldbach and Euler (case analysis, brute force, see UVa 543)
+9. UVa 10394 - Twin Primes * (sieve; check if p and p + 2 are both primes;
+if yes, they are twin primes; precalculate the result)
+10. UVa 10490 - Mr. Azad and his Son (Ad Hoc; precalculate the answers)
+11. UVa 10650 - Determinate Prime (sieve; find 3 uni-distance consecutive primes)
+12. UVa 10852 - Less Prime (sieve; p = 1, find the first prime number ≥ n 2 + 1)
+13. UVa 10948 - The Primary Problem (Goldbach’s conjecture, see UVa 543)
+√
+4
+14. UVa 11752 - The Super Powers (try base: 2 to 2 64 , composite power, sort)
+• GCD and/or LCM
+1. UVa 00106 - Fermat vs. Phytagoras (brute force; use GCD to get relatively
+prime triples)
+2. UVa 00332 - Rational Numbers from ... (use GCD to simplify fraction)
+3. UVa 00408 - Uniform Generator (cycle finding problem with easier solution:
+it is a good choice if step < mod and GCD(step, mod) == 1)
+4. UVa 00412 - Pi (brute force; GCD to find elements with no common factor)
+5. UVa 10407 - Simple Division * (subtract the set s with s[0], find gcd)
+6. UVa 10892 - LCM Cardinality * (number of divisor pairs of N : (m, n)
+such that gcd(m, n) = 1)
+7. UVa 11388 - GCD LCM (understand the relationship of GCD with LCM)
+8. UVa 11417 - GCD (brute force, input is small)
+9. UVa 11774 - Doom’s Day (find pattern involving gcd with small test cases)
+10. UVa 11827 - Maximum GCD * (GCD of many numbers, small input)
+11. UVa 12068 - Harmonic Mean (involving fraction, use LCM and GCD)
+• Factorial
+UVa 00324 - Factorial Frequencies * (count digits of n! up to 366!)
+UVa 00568 - Just the Facts (can use Java BigInteger, slow but AC)
+UVa 00623 - 500 (factorial) * (easy with Java BigInteger)
+UVa 10220 - I Love Big Numbers (use Java BigInteger; precalculate)
+UVa 10323 - Factorial. You Must ... (overflow: n>13/-odd n; underflow:
+n<8/-even n; PS: actually, factorial of negative number is not defined)
+6. UVa 10338 - Mischievous Children * (use long long to store up to 20!)
+
+• Finding Prime Factors
+1. UVa 00516 - Prime Land * (problem involving prime-power factorization)
+
+2. UVa 00583 - Prime Factors * (basic prime factorization problem)
+3. UVa 10392 - Factoring Large Numbers (enumerate the prime factors of input)
+4. UVa 11466 - Largest Prime Divisor * (use efficient sieve implementa-
+tion to get the largest prime factors)
+• Working with Prime Factors
+1. UVa 00160 - Factors and Factorials (precalc small primes as prime factors of
+100! is < 100)
+2. UVa 00993 - Product of digits (find divisors from 9 down to 1)
+3. UVa 10061 - How many zeros & how ... (in Decimal, ‘10’ with 1 zero is due
+to factor 2 × 5)
+4. UVa 10139 - Factovisors * (discussed in this section)
+5. UVa 10484 - Divisibility of Factors (prime factors of factorial, D can be -ve)
+6. UVa 10527 - Persistent Numbers (similar to UVa 993)
+7. UVa 10622 - Perfect P-th Power (get GCD of all prime powers, special case
+if x is -ve)
+8. UVa 10680 - LCM * (use prime factors of [1..N] to get LCM(1,2,. . . ,N))
+9. UVa 10780 - Again Prime? No time. (similar but different problem with
+UVa 10139)
+10. UVa 10791 - Minimum Sum LCM (analyze the prime factors of N )
+11. UVa 11347 - Multifactorials (prime-power factorization; numDiv(N))
+12. UVa 11395 - Sigma Function (key hint: a square number multiplied by
+powers of two, i.e. 2 k × i 2 for k ≥ 0, i ≥ 1 has odd sum of divisors)
+13. UVa 11889 - Benefit * (LCM, involving prime factorization)
+• Functions involving Prime Factors
+
+UVa 00294 - Divisors * (numDiv(N))
+UVa 00884 - Factorial Factors (numPF(N); precalculate)
+UVa 01246 - Find Terrorists (LA 4340, Amrita08, numDiv(N))
+UVa 10179 - Irreducible Basic ... * (EulerPhi(N))
+UVa 10299 - Relatives (EulerPhi(N))
+UVa 10820 - Send A Table (a[i] = a[i - 1] + 2 * EulerPhi(i))
+UVa 10958 - How Many Solutions? (2 * numDiv(n * m * p * p) - 1)
+UVa 11064 - Number Theory (N - EulerPhi(N) - numDiv(N))
+UVa 11086 - Composite Prime (find numbers N with numPF(N) == 2)
+UVa 11226 - Reaching the fix-point (sumPF(N); get length; DP)
+UVa 11353 - A Different kind of Sorting (numPF(N); modified sorting)
+UVa 11728 - Alternate Task * (sumDiv(N))
+UVa 12005 - Find Solutions (numDiv(4N-3))
+• Modified Sieve
+1. UVa 10699 - Count the Factors * (numDiffPF(N) for a range of N )
+2. UVa 10738 - Riemann vs. Mertens * (numDiffPF(N) for a range of N )
+3. UVa 10990 - Another New Function * (modified sieve to compute a
+range of Euler Phi values; use DP to compute depth Phi values; then finally
+use Max 1D Range Sum DP to output the answer)
+4. UVa 11327 - Enumerating Rational ... (pre-calculate EulerPhi(N))
+5. UVa 12043 - Divisors (sumDiv(N) and numDiv(N); brute force)
+
+• Modulo Arithmetic
+1. UVa 00128 - Software CRC ((a × b)mods = ((amods) ∗ (bmods))mods)
+2. UVa 00374 - Big Mod * (solvable with Java BigInteger modPow; or write
+your own code, see Section 9.21)
+3. UVa 10127 - Ones (no factor of 2 and 5 implies that there is no trailing zero)
+4. UVa 10174 - Couple-Bachelor-Spinster ... (no Spinster number)
+5. UVa 10176 - Ocean Deep; Make it ... * (discussed in this section)
+6. UVa 10212 - The Last Non-zero Digit * (there is a modulo arithmetic
+solution: multiply numbers from N down to N − M + 1; repeatedly use /10
+to discard the trailing zero(es), and then use %1 Billion to only memorize
+the last few (maximum 9) non zero digits)
+7. UVa 10489 - Boxes of Chocolates (keep working values small with modulo)
+8. UVa 11029 - Leading and Trailing (combination of logarithmic trick to get
+the first three digits and ‘big mod’ trick to get the last three digits)
+• Extended Euclid:
+1. UVa 10090 - Marbles * (use solution for Linear Diophantine Equation)
+2. UVa 10104 - Euclid Problem * (pure problem of Extended Euclid)
+3. UVa 10633 - Rare Easy Problem (this problem can be modeled as Linear
+Diophantine Equation; let C = N − M (the given input), N = 10a + b (N is
+at least two digits, with b as the last digit), and M = a; this problem is now
+about finding the solution of the Linear Diophantine Equation: 9a + b = C)
+4. UVa 10673 - Play with Floor and Ceil * (uses Extended Euclid)
+• Other Number Theory Problems
+UVa 00547 - DDF (a problem about ‘eventually constant’ sequence)
+UVa 00756 - Biorhythms (Chinese Remainder Theorem)
+UVa 10110 - Light, more light * (check if n is a square number)
+UVa 10922 - 2 the 9s (test divisibility by 9)
+UVa 10929 - You can say 11 (test divisibility by 11)
+UVa 11042 - Complex, difficult and ... (case analysis; only 4 possible outputs)
+UVa 11344 - The Huge One * (read M as string, use divisibility theory
+of [1..12])
+8. UVa 11371 - Number Theory for ... * (the solving strategy is given)
+
+1. UVa 00542 - France ’98 (divide and conquer)
+2. UVa 10056 - What is the Probability? (get the closed form formula)
+3. UVa 10218 - Let’s Dance (probability and a bit of binomial coefficients)
+4. UVa 10238 - Throw the Dice (similar to UVa 10759; use Java BigInteger)
+5. UVa 10328 - Coin Toss (DP, 1-D state, Java BigInteger)
+6. UVa 10491 - Cows and Cars * (discussed in this section)
+7. UVa 10759 - Dice Throwing * (discussed in this section)
+8. UVa 10777 - God, Save me (expected value)
+9. UVa 11021 - Tribbles (probability)
+10. UVa 11176 - Winning Streak * (DP, s: (n left, max streak) where n left is
+the number of remaining games and max streak stores the longest consecutive
+wins; t: lose this game, or win the next W = [1..n left] games and lose the
+(W+1)-th game; special case if W = n left)
+11. UVa 11181 - Probability (bar) Given (iterative brute force, try all possibilities)
+12. UVa 11346 - Probability (a bit of geometry)
+13. UVa 11500 - Vampires (Gambler’s Ruin Problem)
+14. UVa 11628 - Another lottery (p[i] = ticket[i] / total; use gcd to simplify fraction)
+15. UVa 12024 - Hats (discussed in this section)
+16. UVa 12114 - Bachelor Arithmetic (simple probability)
+17. UVa 12457 - Tennis contest (simple expected value problem; use DP)
+18. UVa 12461 - Airplane (brute force small n to see that the answer is very easy)
+
+Programming Exercises related to Cycle-Finding:
+1. UVa 00202 - Repeating Decimals (do expansion digit by digit until it cycles)
+2. UVa 00275 - Expanding Fractions (same as UVa 202 except the output format)
+3. UVa 00350 - Pseudo-Random Numbers * (discussed in this section)
+4. UVa 00944 - Happy Numbers (similar to UVa 10591)
+5. UVa 10162 - Last Digit (cycle after 100 steps, use Java BigInteger to read the
+input, precalculate)
+6. UVa 10515 - Power et al (concentrate on the last digit)
+7. UVa 10591 - Happy Number (this sequence is ‘eventually periodic’)
+8. UVa 11036 - Eventually periodic ... (cycle-finding, evaluate Reverse Polish f with
+a stack—also see Section 9.27)
+9. UVa 11053 - Flavius Josephus ... * (cycle-finding, the answer is N − λ)
+10. UVa 11549 - Calculator Conundrum (repeat squaring with limited digits until
+it cycles; that is, the Floyd’s cycle-finding algorithm is only used to detect the
+cycle, we do not use the value of μ or λ; instead, we keep track the largest iterated
+function value found before any cycle is encountered)
+11. UVa 11634 - Generate random ... * (use DAT of size 10K, extract digits;
+the programming trick to square 4 digits ‘a’ and get the resulting middle 4 digits
+is a = (a * a / 100) % 10000)
+12. UVa 12464 - Professor Lazy, Ph.D. (although n can be very huge, the pattern is
+actually cyclic; find the length of the cycle l and modulo n with l)
+
+Programming Exercises related to Game Theory:
+1. UVa 00847 - A multiplication game (simulate the perfect play, discussed above)
+2. UVa 10111 - Find the Winning ... * (Tic-Tac-Toe, minimax, backtracking)
+3. UVa 10165 - Stone Game (Nim game, application of Sprague-Grundy theorem)
+4. UVa 10368 - Euclid’s Game (minimax, backtracking, discussed in this section)
+5. UVa 10404 - Bachet’s Game (2 players game, Dynamic Programming)
+6. UVa 10578 - The Game of 31 (backtracking; try all; see who wins the game)
+7. UVa 11311 - Exclusively Edible * (game theory, reducible to Nim game; we
+can view the game that Handel and Gretel are playing as Nim game, where there
+are 4 heaps - cakes left/below/right/above the topping; take the Nim sum of these
+4 values and if they are equal to 0, Handel loses)
+8. UVa 11489 - Integer Game * (game theory, reducible to simple math)
+9. UVa 12293 - Box Game (analyze the game tree of smaller instances to get the
+mathematical insight to solve this problem)
+10. UVa 12469 - Stones (game playing, Dynamic Programming, pruning)
+
+
+Programming Exercises related to Ad Hoc String Processing:
+• Cipher/Encode/Encrypt/Decode/Decrypt, Easier
+UVa 00245 - Uncompress (use the given algorithm)
+UVa 00306 - Cipher (can be made faster by avoiding cycle)
+UVa 00444 - Encoder and Decoder (each char is mapped to 2 or 3 digits)
+UVa 00458 - The Decoder (shift each character’s ASCII value by -7)
+UVa 00483 - Word Scramble (read char by char from left to right)
+UVa 00492 - Pig Latin (ad hoc, similar to UVa 483)
+UVa 00641 - Do the Untwist (reverse the given formula and simulate)
+UVa 00739 - Soundex Indexing (straightforward conversion problem)
+UVa 00795 - Sandorf’s Cipher (prepare an ‘inverse mapper’)
+UVa 00865 - Substitution Cypher (simple character substitution mapping)
+UVa 10019 - Funny Encryption Method (not hard, find the pattern)
+UVa 10222 - Decode the Mad Man (simple decoding mechanism)
+UVa 10851 - 2D Hieroglyphs ... * (ignore border; treat ’\/’ as 1/0; read
+from bottom)
+UVa 10878 - Decode the Tape * (treat space/‘o’ as 0/1, then it is binary
+to decimal conversion)
+UVa 10896 - Known Plaintext Attack (try all possible keys; use tokenizer)
+UVa 10921 - Find the Telephone (simple conversion problem)
+UVa 11220 - Decoding the message (follow instruction in the problem)
+UVa 11278 - One-Handed Typist * (map QWERTY keys to DVORAK)
+UVa 11541 - Decoding (read char by char and simulate)
+UVa 11716 - Digital Fortress (simple cipher)
+UVa 11787 - Numeral Hieroglyphs (follow the description)
+UVa 11946 - Code Number (ad hoc)
+• Cipher/Encode/Encrypt/Decode/Decrypt, Harder
+1. UVa 00213 - Message Decoding (decrypt the message)
+2. UVa 00468 - Key to Success (letter frequency mapping)
+3. UVa 00554 - Caesar Cypher * (try all shifts; output formatting)
+
+UVa 00632 - Compression (II) (simulate the process, use sorting)
+UVa 00726 - Decode (frequency cypher)
+UVa 00740 - Baudot Data ... (just simulate the process)
+UVa 00741 - Burrows Wheeler Decoder (simulate the process)
+UVa 00850 - Crypt Kicker II (plaintext attack, tricky test cases)
+UVa 00856 - The Vigen`ere Cipher (3 nested loops; one for each digit)
+UVa 11385 - Da Vinci Code * (string manipulation + Fibonacci)
+UVa 11697 - Playfair Cipher * (follow the description, a bit tedious)
+• Frequency Counting
+1. UVa 00499 - What’s The Frequency ... (use 1D array for frequency counting)
+2. UVa 00895 - Word Problem (get the letter frequency of each word, compare
+with puzzle line)
+3. UVa 00902 - Password Search * (read char by char; count word freq)
+4. UVa 10008 - What’s Cryptanalysis? (character frequency count)
+5. UVa 10062 - Tell me the frequencies (ASCII character frequency count)
+6. UVa 10252 - Common Permutation * (count freq of each alphabet)
+7. UVa 10293 - Word Length and Frequency (straightforward)
+8. UVa 10374 - Election (use map for frequency counting)
+9. UVa 10420 - List of Conquests (word frequency counting, use map)
+10. UVa 10625 - GNU = GNU’sNotUnix (frequency addition n times)
+11. UVa 10789 - Prime Frequency (check if a letter’s frequency is prime)
+12. UVa 11203 - Can you decide it ... * (problem description is convoluted,
+but this problem is actually easy)
+13. UVa 11577 - Letter Frequency (straightforward problem)
+• Input Parsing (Non Recursive)
+
+UVa 00271 - Simply Syntax (grammar check, linear scan)
+UVa 00327 - Evaluating Simple C ... (implementation can be tricky)
+UVa 00391 - Mark-up (use flags, tedious parsing)
+UVa 00397 - Equation Elation (iteratively perform the next operation)
+UVa 00442 - Matrix Chain Multiplication (properties of matrix chain mult)
+UVa 00486 - English-Number Translator (parsing)
+UVa 00537 - Artificial Intelligence? (simple formula; parsing is difficult)
+UVa 01200 - A DP Problem (LA 2972, Tehran03, tokenize linear equation)
+UVa 10906 - Strange Integration * (BNF parsing, iterative solution)
+UVa 11148 - Moliu Fractions (extract integers, simple/mixed fractions from
+a line; a bit of gcd—see Section 5.5.2)
+11. UVa 11357 - Ensuring Truth * (the problem description looks scary—a
+SAT (satisfiability) problem; the presence of BNF grammar makes one think
+of recursive descent parser; however, only one clause needs to be satisfied
+to get TRUE; a clause can be satisfied if for all variables in the clause, its
+inverse is not in the clause too; now, we have a much simpler problem)
+12. UVa 11878 - Homework Checker * (mathematical expression parsing)
+13. UVa 12543 - Longest Word (LA6150, HatYai12, iterative parser)
+
+• Input Parsing (Recursive)
+1. UVa 00384 - Slurpys (recursive grammar check)
+2. UVa 00464 - Sentence/Phrase Generator (generate output based on the given
+BNF grammar)
+3. UVa 00620 - Cellular Structure (recursive grammar check)
+4. UVa 00622 - Grammar Evaluation * (recursive BNF grammar check/evaluation)
+5. UVa 00743 - The MTM Machine (recursive grammar check)
+6. UVa 10854 - Number of Paths * (recursive parsing plus counting)
+7. UVa 11070 - The Good Old Times (recursive grammar evaluation)
+8. UVa 11291 - Smeech * (recursive descent parser)
+• Solvable with Java String/Pattern class (Regular Expression)
+1.
+2.
+3.
+4.
+UVa 00325 - Identifying Legal ... * (see the Java solution above)
+UVa 00494 - Kindergarten Counting ... * (see the Java solution above)
+UVa 00576 - Haiku Review (parsing, grammar)
+UVa 10058 - Jimmi’s Riddles * (solvable with Java regular expression)
+• Output Formatting
+
+UVa 00110 - Meta-loopless sort (actually an ad hoc sorting problem)
+UVa 00159 - Word Crosses (tedious output formatting problem)
+UVa 00320 - Border (requires flood fill technique)
+UVa 00330 - Inventory Maintenance (use map to help)
+UVa 00338 - Long Multiplication (tedious)
+UVa 00373 - Romulan Spelling (check ‘g’ versus ‘p’, ad hoc)
+UVa 00426 - Fifth Bank of ... (tokenize; sort; reformat output)
+UVa 00445 - Marvelous Mazes (simulation, output formatting)
+UVa 00488 - Triangle Wave * (use several loops)
+UVa 00490 - Rotating Sentences (2d array manipulation, output formatting)
+UVa 00570 - Stats (use map to help)
+UVa 00645 - File Mapping (use recursion to simulate directory structure, it
+helps the output formatting)
+UVa 00890 - Maze (II) (simulation, follow the steps, tedious)
+UVa 01219 - Team Arrangement (LA 3791, Tehran06)
+UVa 10333 - The Tower of ASCII (a real time waster problem)
+UVa 10500 - Robot maps (simulate, output formatting)
+UVa 10761 - Broken Keyboard (tricky with output formatting; note that
+‘END’ is part of input!)
+UVa 10800 - Not That Kind of Graph * (tedious problem)
+UVa 10875 - Big Math (simple but tedious problem)
+UVa 10894 - Save Hridoy (how fast can you can solve this problem?)
+UVa 11074 - Draw Grid (output formatting)
+UVa 11482 - Building a Triangular ... (tedious...)
+UVa 11965 - Extra Spaces (replace consecutive spaces with only one space)
+UVa 12155 - ASCII Diamondi * (use proper index manipulation)
+UVa 12364 - In Braille (2D array check, check all possible digits [0..9])
+
+• String Comparison
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+UVa 00409 - Excuses, Excuses (tokenize and compare with list of excuses)
+UVa 00644 - Immediate Decodability * (use brute force)
+UVa 00671 - Spell Checker (string comparison)
+UVa 00912 - Live From Mars (simulation, find and replace)
+UVa 11048 - Automatic Correction ... * (flexible string comparison with
+respect to a dictionary)
+UVa 11056 - Formula 1 * (sorting, case-insensitive string comparison)
+UVa 11233 - Deli Deli (string comparison)
+UVa 11713 - Abstract Names (modified string comparison)
+UVa 11734 - Big Number of Teams ... (modified string comparison)
+• Just Ad Hoc
+UVa 00153 - Permalex (find formula for this, similar to UVa 941)
+UVa 00263 - Number Chains (sort digits, convert to integers, check cycle)
+UVa 00892 - Finding words (basic string processing problem)
+UVa 00941 - Permutations * (formula to get the n-th permutation)
+UVa 01215 - String Cutting (LA 3669, Hanoi06)
+UVa 01239 - Greatest K-Palindrome ... (LA 4144, Jakarta08, brute-force)
+UVa 10115 - Automatic Editing (simply do what they want, uses string)
+UVa 10126 - Zipf’s Law (sort the words to simplify this problem)
+UVa 10197 - Learning Portuguese (must follow the description very closely)
+UVa 10361 - Automatic Poetry (read, tokenize, process as requested)
+UVa 10391 - Compound Words (more like data structure problem)
+UVa 10393 - The One-Handed Typist * (follow problem description)
+UVa 10508 - Word Morphing (number of words = number of letters + 1)
+UVa 10679 - I Love Strings (the test data weak; just checking if T is a prefix
+of S is AC when it should not)
+UVa 11452 - Dancing the Cheeky ... * (string period, small input, BF)
+UVa 11483 - Code Creator (straightforward, use ‘escape character’)
+UVa 11839 - Optical Reader (illegal if mark 0 or > 1 alternatives)
+UVa 11962 - DNA II (find formula; similar to UVa 941; base 4)
+UVa 12243 - Flowers Flourish ... (simple string tokenizer problem)
+UVa 12414 - Calculating Yuan Fen (brute force problem involving string)
+
+Programming Exercises related to String Matching
+• Standard
+1. UVa 00455 - Periodic String (find s in s + s)
+2. UVa 00886 - Named Extension Dialing (convert first letter of given name
+and all the letters of the surname into digits; then do a kind of special string
+matching where we want the matching to start at the prefix of a string)
+3. UVa 10298 - Power Strings * (find s in s + s, similar to UVa 455)
+4. UVa 11362 - Phone List (string sort, matching)
+5. UVa 11475 - Extend to Palindromes * (‘border’ of KMP)
+6. UVa 11576 - Scrolling Sign * (modified string matching; complete search)
+7. UVa 11888 - Abnormal 89’s (to check ‘alindrome’, find reverse of s in s + s)
+8. UVa 12467 - Secret word (similar idea with UVa 11475, if you can solve that
+problem, you should be able to solve this problem)
+• In 2D Grid
+UVa 00422 - Word Search Wonder * (2D grid, backtracking)
+UVa 00604 - The Boggle Game (2D matrix, backtracking, sort, and compare)
+UVa 00736 - Lost in Space (2D grid, a bit modified)
+UVa 10010 - Where’s Waldorf ? * (discussed in this section)
+UVa 11283 - Playing Boggle * (2D grid, backtracking, do not count twice)
+
+Programming Exercises related to String Processing with DP:
+• Classic
+UVa 00164 - String Computer (String Alignment/Edit Distance)
+UVa 00526 - Edit Distance * (String Alignment/Edit Distance)
+UVa 00531 - Compromise (Longest Common Subsequence; print the solution)
+UVa 01207 - AGTC (LA 3170, Manila06, classical String Edit problem)
+UVa 10066 - The Twin Towers (Longest Common Subsequence problem, but
+not on ‘string’)
+UVa 10100 - Longest Match (Longest Common Subsequence)
+UVa 10192 - Vacation * (Longest Common Subsequence)
+UVa 10405 - Longest Common ... (Longest Common Subsequence)
+UVa 10635 - Prince and Princess * (find LCS of two permutations)
+UVa 10739 - String to Palindrome (variation of edit distance)
+• Non Classic
+1. UVa 00257 - Palinwords (standard DP palindrome plus brute force checks)
+2. UVa 10453 - Make Palindrome (s: (L, R); t: (L+1, R-1) if S[L] == S[R]; or
+one plus min of(L + 1, R) or (L, R - 1); also print the required solution)
+3. UVa 10617 - Again Palindrome (manipulate indices, not the actual string)
+4. UVa 11022 - String Factoring * (s: the min weight of substring [i..j])
+5. UVa 11151 - Longest Palindrome * (discussed in this section)
+6. UVa 11258 - String Partition * (discussed in this section)
+7. UVa 11552 - Fewest Flops (dp(i, c) = minimum number of chunks after
+considering the first i segments ending with character c)
+
+Programming Exercises related to Suffix Array 18 :
+1. UVa 00719 - Glass Beads (min lexicographic rotation 19 ; O(n log n) build SA)
+2. UVa 00760 - DNA Sequencing * (Longest Common Substring of two strings)
+3. UVa 01223 - Editor (LA 3901, Seoul07, Longest Repeated Substring (or KMP))
+4. UVa 01254 - Top 10 (LA 4657, Jakarta09, Suffix Array + Segment Tree)
+5. UVa 11107 - Life Forms * (Longest Common Substring of >
+of the strings)
+6. UVa 11512 - GATTACA * (Longest Repeated Substring)
+7. SPOJ 6409 - Suffix Array (problem author: Felix Halim)
+8. IOI 2008 - Type Printer (DFS traversal of Suffix Trie)
+
+Programming Exercises related to Basic Geometry:
+• Points and Lines:
+UVa 00152 - Tree’s a Crowd (sort the 3D points first)
+UVa 00191 - Intersection (line segment intersection)
+UVa 00378 - Intersecting Lines (use areParallel, areSame, areIntersect)
+UVa 00587 - There’s treasure everywhere (Euclidean distance dist)
+UVa 00833 - Water Falls (recursive check, use the ccw tests)
+UVa 00837 - Light and Transparencies (line segments, sort x-coords first)
+UVa 00920 - Sunny Mountains * (Euclidean distance dist)
+UVa 01249 - Euclid (LA 4601, Southeast USA Regional 2009, vector)
+UVa 10242 - Fourth Point (toVector; translate points w.r.t that vector)
+UVa 10250 - The Other Two Trees (vector, rotation)
+UVa 10263 - Railway * (use distToLineSegment)
+UVa 10357 - Playball (Euclidean distance dist, simple Physics simulation)
+UVa 10466 - How Far? (Euclidean distance dist)
+UVa 10585 - Center of symmetry (sort the points)
+UVa 10832 - Yoyodyne Propulsion ... (3D Euclidean distance; simulation)
+UVa 10865 - Brownie Points (points and quadrants, simple)
+UVa 10902 - Pick-up sticks (line segment intersection)
+UVa 10927 - Bright Lights * (sort points by gradient, Euclidean distance)
+UVa 11068 - An Easy Task (simple 2 linear equations with 2 unknowns)
+UVa 11343 - Isolated Segments (line segment intersection)
+UVa 11505 - Logo (Euclidean distance dist)
+UVa 11519 - Logo 2 (vectors and angles)
+UVa 11894 - Genius MJ (about rotating and translating points)
+• Circles (only)
+1. UVa 01388 - Graveyard (divide the circle into n sectors first and then into
+(n + m) sectors)
+2. UVa 10005 - Packing polygons * (complete search; use circle2PtsRad
+discussed in Chapter 7)
+3. UVa 10136 - Chocolate Chip Cookies (similar to UVa 10005)
+4. UVa 10180 - Rope Crisis in Ropeland (closest point from AB to origin; arc)
+5. UVa 10209 - Is This Integration? (square, arcs, similar to UVa 10589)
+6. UVa 10221 - Satellites (finding arc and chord length of a circle)
+7. UVa 10283 - The Kissing Circles (derive the formula)
+8. UVa 10432 - Polygon Inside A Circle (area of n-sided reg-polygon in circle)
+9. UVa 10451 - Ancient ... (inner/outer circle of n-sided reg polygon)
+10. UVa 10573 - Geometry Paradox (there is no ‘impossible’ case)
+11. UVa 10589 - Area * (check if point is inside intersection of 4 circles)
+
+12. UVa 10678 - The Grazing Cows * (area of an ellipse, generalization of
+the formula for area of a circle)
+13. UVa 12578 - 10:6:2 (area of rectangle and circle)
+• Triangles (plus Circles)
+
+UVa 00121 - Pipe Fitters (use Pythagorean theorem; grid)
+UVa 00143 - Orchard Trees (count integer points in triangle; precision issue)
+UVa 00190 - Circle Through Three ... (triangle’s circumcircle)
+UVa 00375 - Inscribed Circles and ... (triangle’s incircles!)
+UVa 00438 - The Circumference of ... (triangle’s circumcircle)
+UVa 10195 - The Knights Of The ... (triangle’s incircle, Heron’s formula)
+UVa 10210 - Romeo & Juliet (basic trigonometry)
+UVa 10286 - The Trouble with a ... (Law of Sines)
+UVa 10347 - Medians (given 3 medians of a triangle, find its area)
+UVa 10387 - Billiard (expanding surface, trigonometry)
+UVa 10522 - Height to Area (derive the formula, uses Heron’s formula)
+UVa 10577 - Bounding box * (get center+radius of outer circle from 3
+points, get all vertices, get the min-x/max-x/min-y/max-y of the polygon)
+UVa 10792 - The Laurel-Hardy Story (derive the trigonometry formulas)
+UVa 10991 - Region (Heron’s formula, Law of Cosines, area of sector)
+UVa 11152 - Colourful ... * (triangle’s (in/circum)circle; Heron’s formula)
+UVa 11164 - Kingdom Division (use Triangle properties)
+UVa 11281 - Triangular Pegs in ... (the min bounding circle of a non obtuse
+triangle is its circumcircle; if the triangle is obtuse, the the radii of the min
+bounding circle is the largest side of the triangle)
+UVa 11326 - Laser Pointer (trigonometry, tangent, reflection trick)
+UVa 11437 - Triangle Fun (hint: 17 )
+UVa 11479 - Is this the easiest problem? (property check)
+UVa 11579 - Triangle Trouble (sort; greedily check if three successive sides
+satisfy triangle inequality and if it is the largest triangle found so far)
+UVa 11854 - Egypt (Pythagorean theorem/triple)
+UVa 11909 - Soya Milk * (Law of Sines (or tangent); two possible cases!)
+UVa 11936 - The Lazy Lumberjacks (see if 3 sides form a valid triangle)
+• Quadrilaterals
+
+UVa 00155 - All Squares (recursive counting)
+UVa 00460 - Overlapping Rectangles * (rectangle-rectangle intersection)
+UVa 00476 - Points in Figures: ... (similar to UVa 477 and 478)
+UVa 00477 - Points in Figures: ... (similar to UVa 476 and 478)
+UVa 11207 - The Easiest Way * (cutting rectangle into 4-equal-sized squares)
+UVa 11345 - Rectangles (rectangle-rectangle intersection)
+UVa 11455 - Behold My Quadrangle (property check)
+UVa 11639 - Guard the Land (rectangle-rectangle intersection, use flag array)
+UVa 11800 - Determine the Shape (use next permutation to help you try
+all possible 4! = 24 permutations of 4 points; check if they can satisfy square,
+rectangle, rhombus, parallelogram, trapezium, in that order)
+10. UVa 11834 - Elevator * (packing two circles in a rectangle)
+11. UVa 12256 - Making Quadrilaterals (LA 5001, KualaLumpur 10, start with
+three sides of 1, 1, 1, then the fourth side onwards must be the sum of the
+previous three to make a line; repeat until we reach the n-th side)
+
+• 3D Objects
+1. UVa 00737 - Gleaming the Cubes * (cube and cube intersection)
+2. UVa 00815 - Flooded * (volume, greedy, sort by height, simulation)
+3. UVa 10297 - Beavergnaw * (cones, cylinders, volumes)
+
+Programming Exercises related to Polygon:
+1. UVa 00109 - Scud Busters (find CH, test if point inPolygon, area of polygon)
+2. UVa 00137 - Polygons (convex polygon intersection, line segment intersection,
+inPolygon, CH, area, inclusion-exclusion principle)
+3. UVa 00218 - Moth Eradication (find CH, perimeter of polygon)
+4. UVa 00361 - Cops and Robbers (check if a point is inside CH of Cop/Robber; if
+a point pt is inside a convex hull, then there is definitely a triangle formed using
+three vertices of the convex hull that contains pt)
+5. UVa 00478 - Points in Figures: ... (inPolygon/inTriangle; if the given polygon P
+is convex, there is another way to check if a point pt is inside or outside P other
+than the way mentioned in this section; we can triangulate P into triangles with
+pt as one of the vertex, then sum the areas of the triangles; if it is the same as
+the area of polygon P , then pt is inside P ; if it is larger, then pt is outside P )
+6. UVa 00596 - The Incredible Hull (CH, output formatting is a bit tedious)
+7. UVa 00634 - Polygon (inPolygon; the polygon can be convex or concave)
+8. UVa 00681 - Convex Hull Finding (pure CH problem)
+9. UVa 00858 - Berry Picking (ver line-polygon intersect; sort; alternating segments)
+10. UVa 01111 - Trash Removal * (LA 5138, World Finals Orlando11, CH, dis-
+tance of each CH side—which is parallel to the side—to each vertex of the CH)
+11. UVa 01206 - Boundary Points (LA 3169, Manila06, convex hull CH)
+12. UVa 10002 - Center of Mass? (centroid, center of CH, area of polygon)
+13. UVa 10060 - A Hole to Catch a Man (area of polygon)
+14. UVa 10065 - Useless Tile Packers (find CH, area of polygon)
+15. UVa 10112 - Myacm Triangles (test if point inPolygon/inTriangle, see UVa 478)
+16. UVa 10406 - Cutting tabletops (vector, rotate, translate, then cutPolygon)
+17. UVa 10652 - Board Wrapping * (rotate, translate, CH, area)
+18. UVa 11096 - Nails (very classic CH problem, start from here)
+19. UVa 11265 - The Sultan’s Problem * (cutPolygon, inPolygon, area)
+20. UVa 11447 - Reservoir Logs (area of polygon)
+21. UVa 11473 - Campus Roads (perimeter of polygon)
+22. UVa 11626 - Convex Hull (find CH, be careful with collinear points)
+
+Programming Exercises solvable with More Advanced Search Techniques:
+• More Challenging Backtracking Problems
+1. UVa 00131 - The Psychic Poker Player (backtracking with 2 5 bitmask to help
+deciding which card is retained in hand/exchanged with the top of deck; use
+5! to shuffle the 5 cards in hand and get the best value)
+2. UVa 00710 - The Game (backtracking with memoization/pruning)
+3. UVa 00711 - Dividing up (reduce search space first before backtracking)
+4. UVa 00989 - Su Doku (classic Su Doku puzzle; this problem is NP complete
+but this instance is solvable with backtracking with pruning; use bitmask to
+speed up the check of available digits)
+5. UVa 01052 - Bit Compression (LA 3565 - WorldFinals SanAntonio06, back-
+tracking with some form of bitmask)
+6. UVa 10309 - Turn the Lights Off * (brute force the first row in 2 10 , the
+rest follows)
+7. UVa 10318 - Security Panel (the order is not important, so we can try press-
+ing the buttons in increasing order, row by row, column by column; when
+pressing one button, only the 3×3 square around it is affected; therefore after
+we press button (i, j), light (i − 1, j − 1) must be on (as no button afterward
+will affect this light); this check can be used to prune the backtracking)
+8. UVa 10890 - Maze (looks like a DP problem but the state—involving bitmask—
+cannot be memoized, fortunately the grid size is ‘small’)
+9. UVa 10957 - So Doku Checker (very similar with UVa 989; if you can solve
+that one, you can modify your code a bit to solve this one)
+10. UVa 11195 - Another n-Queen Problem * (see Exercise 3.2.1.3* and
+the discussion in Section 8.2.1)
+11. UVa 11065 - A Gentlemen’s Agreement * (independent set, bitmask
+helps in speeding up the solution; see the discussion in Section 8.2.1)
+12. UVa 11127 - Triple-Free Binary Strings (backtracking with bitmask)
+13. UVa 11464 - Even Parity (brute force the first row in 2 15 , the rest follows)
+14. UVa 11471 - Arrange the Tiles (reduce search space by grouping tiles of the
+same type; recursive backtracking)
+310CHAPTER 8. MORE ADVANCED TOPICS
+c Steven & Felix
+• More Challenging State-Space Search with BFS or Dijkstra’s
+1. UVa 00321 - The New Villa (s: (position, bitmask 2 10 ), print the path)
+2. UVa 00658 - It’s not a Bug ... (s: bitmask—whether a bug is present or not,
+use Dijkstra’s as the State-Space graph is weighted)
+3. UVa 00928 - Eternal Truths (s: (row, col, direction, step))
+4. UVa 00985 - Round and Round ... * (4 rotations is the same as 0 ro-
+tations, s: (row, col, rotation = [0..3]); find the shortest path from state
+[1][1][0] to state [R][C][x] where 0 ≤ x ≤ 3)
+5. UVa 01057 - Routing (LA 3570, World Finals SanAntonio06, use Floyd War-
+shall’s to get APSP information; then model the original problem as another
+weighted SSSP problem solvable with Dijkstra’s)
+6. UVa 01251 - Repeated Substitution ... (LA 4637, Tokyo09, SSSP solvable
+with BFS)
+7. UVa 01253 - Infected Land (LA 4645, Tokyo09, SSSP solvable with BFS,
+tedious state modeling)
+8. UVa 10047 - The Monocyle (s: (row, col, direction, color); BFS)
+9. UVa 10097 - The Color game (s: (N1, N2); implicit unweighted graph; BFS)
+10. UVa 10923 - Seven Seas (s: (ship position, location of enemies, location of
+obstacles, steps so far); implicit weighted graph; Dijkstra’s)
+11. UVa 11198 - Dancing Digits * (s: permutation; BFS; tricky to code)
+12. UVa 11329 - Curious Fleas * (s: bitmask of 26 bits, 4 to describe the
+position of the die in the 4 × 4 grid, 16 to describe if a cell has a flea, 6 to
+describe the sides of the die that has a flea; use map; tedious to code)
+13. UVa 11513 - 9 Puzzle (reverse the role of source and destination)
+14. UVa 11974 - Switch The Lights (BFS on implicit unweighted graph)
+15. UVa 12135 - Switch Bulbs (LA 4201, Dhaka08, similar to UVa 11974)
+• Meet in the Middle/A*/IDA*
+1. UVa 00652 - Eight (classical sliding block 8-puzzle problem, IDA*)
+2. UVa 01098 - Robots on Ice * (LA 4793, World Finals Harbin10, see the
+discussion in Section 8.2.2; however, there is a faster ‘meet in the middle’
+solution for this problem)
+3. UVa 01217 - Route Planning (LA 3681, Kaohsiung06, solvable with A*/IDA*;
+test data likely only contains up to 15 stops which already include the start-
+ing and the last stop on the route)
+4. UVa 10181 - 15-Puzzle Problem * (similar as UVa 652, but this one is
+larger, we can use IDA*)
+5. UVa 11163 - Jaguar King (another puzzle game solvable with IDA*)
+6. UVa 11212 - Editing a Book * (meet in the middle, see Section 8.2.4)
+• Also see some more Complete Search problems in Section 8.4
+
+Programming Exercises related to More Advanced DP:
+• DP level 2 (slightly harder than those listed in Chapter 3, 4, 5, and 6)
+1. UVa 01172 - The Bridges of ... * (LA 3986, DP non classic, a bit of
+matching flavor but with left to right and OS type constraints)
+2. UVa 01211 - Atomic Car Race * (LA 3404, Tokyo05, precompute array
+T[L], the time to run a path of length L; DP with one parameter i, where i
+is the checkpoint where we change tire; if i = n, we do not change the tire)
+3. UVa 10069 - Distinct Subsequences (use Java BigInteger)
+4. UVa 10081 - Tight Words (use doubles)
+5. UVa 10364 - Square (bitmask technique can be used)
+6. UVa 10419 - Sum-up the Primes (print path, prime)
+7. UVa 10536 - Game of Euler (model the 4 × 4 board and 48 possible pins as
+bitmask; then this is a simple two player game; also see Section 5.8)
+8. UVa 10651 - Pebble Solitaire (small problem size; doable with backtracking)
+9. UVa 10690 - Expression Again (DP Subset Sum, with negative offset tech-
+nique, with addition of simple math)
+10. UVa 10898 - Combo Deal (similar to DP + bitmask; store state as integer)
+11. UVa 10911 - Forming Quiz Teams * (elaborated in this section)
+12. UVa 11088 - End up with More Teams (similar to UVa 10911, but this time
+it is about matching of three persons to one team)
+13. UVa 11832 - Account Book (interesting DP; s: (id, val); use offset to handle
+negative numbers; t: plus or minus; print solution)
+14. UVa 11218 - KTV (still solvable with complete search)
+15. UVa 12324 - Philip J. Fry Problem (must make an observation that sphere
+> n is useless)
+• DP level 3
+UVa 00607 - Scheduling Lectures (returns pair of information)
+UVa 00702 - The Vindictive Coach (the implicit DAG is not trivial)
+UVa 00812 - Trade on Verweggistan (mix between greedy and DP)
+UVa 00882 - The Mailbox ... (s: (lo, hi, mailbox left); try all)
+UVa 01231 - ACORN * (LA 4106, Singapore07, DP with dimension re-
+duction, discussed in this section)
+UVa 01238 - Free Parentheses * (LA 4143, Jakarta08, problem author:
+Felix Halim, discussed in this section)
+UVa 01240 - ICPC Team Strategy (LA 4146, Jakarta08)
+UVa 01244 - Palindromic paths (LA 4336, Amritapuri08, store the best path
+between i, j; the DP table contains strings)
+UVa 10029 - Edit Step Ladders (use map as memo table)
+UVa 10032 - Tug of War (DP Knapsack with optimization to avoid TLE)
+UVa 10154 - Weights and Measures (LIS variant)
+UVa 10163 - Storage Keepers (try all possible safe line L and run DP; s: id,
+N left; t: hire/skip person ‘id’ for looking at K storage)
+UVa 10164 - Number Game (a bit number theory (modulo), backtracking;
+do memoization on DP state: (sum, taken))
+
+14. UVa 10271 - Chopsticks (Observation: The 3rd chopstick can be any chop-
+stick, we must greedily select adjacent chopstick, DP state: (pos, k left),
+transition: Ignore this chopstick, or take this chopstick and the chopstick
+immediately next to it, then move to pos + 2; prune infeasible states when
+there are not enough chopsticks left to form triplets.)
+15. UVa 10304 - Optimal Binary ... (classical DP, requires 1D range sum and
+Knuth-Yao speed up to get O(n 2 ) solution)
+16. UVa 10604 - Chemical Reaction (the mixing can be done with any pair of
+chemicals until there are only two chemicals left; memoize the remaining
+chemicals with help of map; sorting the remaining chemicals help increasing
+the number of hits to the memo table)
+17. UVa 10645 - Menu (s: (days left, budget left, prev dish, prev dish count);
+the first two parameters are knapsack-style parameter; the last two parame-
+ters are used to determine the price of that dish as first, second, and subse-
+quent usage of the dish has different values)
+18. UVa 10817 - Headmaster’s Headache (s: (id, bitmask); space: 100 × 2 2∗8 )
+19. UVa 11002 - Towards Zero (a simple DP; use negative offset technique)
+20. UVa 11084 - Anagram Division (using next permutation/brute force is
+probably not the best approach, there is a DP formulation for this)
+21. UVa 11285 - Exchange Rates (maintain the best CAD & USD each day)
+22. UVa 11391 - Blobs in the Board * (DP with bitmask on 2D grid)
+23. UVa 12030 - Help the Winners (s: (idx, bitmask, all1, has2); t: try all shoes
+that has not been matched to the girl that choose dress ‘idx’)
+• DP level 4
+1. UVa 00473 - Raucous Rockers (the input constraint is not clear; therefore
+use resizeable vector and compact states)
+2. UVa 01099 - Sharing Chocolate * (LA 4794, World Finals Harbin10,
+discussed in this section)
+3. UVa 01220 - Party at Hali-Bula * (LA 3794, Tehran06; Maximum In-
+dependent Set (MIS) problem on tree; DP; also check if the MIS is unique)
+4. UVa 01222 - Bribing FIPA (LA 3797, Tehran06, DP on Tree)
+5. UVa 01252 - Twenty Questions * (LA 4643, Tokyo09, DP, s: (bitmask1,
+bitmask2) where bitmask1 describes the features that we decide to ask and
+bitmask2 describes the answers of the features that we ask)
+6. UVa 10149 - Yahtzee (DP with bitmask; uses card rules; tedious)
+7. UVa 10482 - The Candyman Can (see Exercise 8.3.6.1*)
+8. UVa 10626 - Buying Coke (see Exercise 8.3.6.1*)
+9. UVa 10722 - Super Lucky Numbers (needs Java BigInteger; DP formula-
+tion must be efficient to avoid TLE; state: (N digits left, B, first, previ-
+ous digit is one) and use a bit of simple combinatorics to get the answer)
+10. UVa 11125 - Arrange Some Marbles (counting paths in implicit DAG;
+8 dimensional DP)
+11. UVa 11133 - Eigensequence (the implicit DAG is not trivial)
+12. UVa 11432 - Busy Programmer (the implicit DAG is not trivial)
+13. UVa 11472 - Beautiful Numbers (DP state with four parameters)
+
+Programming Exercises related to Problem Decomposition:
+• Two Components - Binary Search the Answer and Other
+1. UVa 00714 - Copying Books (binary search the answer + greedy)
+2. UVa 01221 - Against Mammoths (LA 3795, Tehran06, binary search the
+answer + MCBM (perfect matching); use the augmenting path algorithm to
+compute MCBM—see Section 4.7.4)
+3. UVa 01280 - Curvy Little Bottles (LA 6027, World Finals Warsaw12, binary
+search the answer and geometric formula)
+4. UVa 10372 - Leaps Tall Buildings ... (binary search the answer + Physics)
+5. UVa 10566 - Crossed Ladders (bisection method)
+6. UVa 10606 - Opening Doors (the solution is simply the highest square num-
+ber ≤ N , but this problem involves BigInteger;
+we use a (rather slow) binary
+√
+search the answer technique to obtain N )
+7. UVa 10668 - Expanding Rods (bisection method)
+8. UVa 10804 - Gopher Strategy (similar to UVa 11262)
+9. UVa 10816 - Travel in Desert (binary search the answer + Dijkstra’s)
+10. UVa 10983 - Buy one, get ... * (binary search the answer + max flow)
+11. UVa 11262 - Weird Fence * (binary search the answer + MCBM)
+12. UVa 11516 - WiFi * (binary search the answer + greedy)
+13. UVa 11646 - Athletics Track (the circle is at the center of track)
+14. UVa 12428 - Enemy at the Gates (binary search the answer + a bit of graph
+theory about bridges as outlined in Chapter 4)
+15. IOI 2009 - Mecho (binary search the answer + BFS)
+• Two Components - Involving DP 1D RSQ/RMQ
+1. UVa 00967 - Circular (similar to UVa 897, but this time the output part can
+be speed up using DP 1D range sum)
+2. UVa 10200 - Prime Time (complete search, test if isPrime(n 2 + n + 41)
+∀n ∈ [a..b]; FYI, this prime generating formula n 2 + n + 41 was found by
+Leonhard Euler; for 0 ≤ n ≤ 40, it works; however, it does not have good
+accuracy for larger n; finally use DP 1D RSQ to speed up the solution)
+3. UVa 10533 - Digit Primes (sieve; check if a prime is a digit prime; DP 1D
+range sum)
+4. UVa 10871 - Primed Subsequence (need 1D Range Sum Query)
+5. UVa 10891 - Game of Sum * (Double DP; The first DP is the standard
+1D Range Sum Query between two indices: i, j. The second DP evaluates
+the Decision Tree with state (i, j) and try all splitting points; minimax.)
+6. UVa 11105 - Semi-prime H-numbers * (need 1D Range Sum Query)
+7. UVa 11408 - Count DePrimes * (need 1D Range Sum Query)
+8. UVa 11491 - Erasing and Winning (greedy, optimized with Sparse Table
+data structure to deal with the static RMQ)
+9. UVa 12028 - A Gift from ... (generate the array; sort it; prepare 1D Range
+Sum Query; then the solution will be much simpler)
+
+• Two Components - Graph Preprocessing and DP
+1. UVa 00976 - Bridge Building * (use a kind of flood fill to separate north
+and south banks; use it to compute the cost of installing a bridge at each
+column; a DP solution should be quite obvious after this preprocessing)
+2. UVa 10917 - A Walk Through the Forest (counting paths in DAG; but first,
+you have to build the DAG by running Dijkstra’s algorithm from ‘home’)
+3. UVa 10937 - Blackbeard the Pirate (BFS → TSP, then DP or backtracking;
+discussed in this section)
+4. UVa 10944 - Nuts for nuts.. (BFS → TSP, then use DP, n ≤ 16)
+5. UVa 11324 - The Largest Clique * (longest paths on DAG; but first,
+you have to transform the graph into DAG of its SCCs; toposort)
+6. UVa 11405 - Can U Win? * (BFS from ‘k’ & each ‘P’—max 9 items;
+then use DP-TSP)
+7. UVa 11693 - Speedy Escape (compute shotest paths information using Floyd
+Warshall’s; then use DP)
+8. UVa 11813 - Shopping (Dijsktra’s → TSP, then use DP, n ≤ 10)
+• Two Components - Involving Graph
+1. UVa 00273 - Jack Straw (line segment intersection and Warshall’s transitive
+closure algorithm)
+2. UVa 00521 - Gossiping (build a graph; the vertices are drivers; give an edge
+between two drivers if they can meet; this is determined with mathematical
+rule (gcd); if the graph is connected, then the answer is ‘yes’)
+3. UVa 01039 - Simplified GSM Network (LA 3270, World Finals Shanghai05,
+build the graph with simple geometry; then use Floyd Warshall’s)
+4. UVa 01092 - Tracking Bio-bots * (LA 4787, World Finals Harbin10,
+compress the graph first; do graph traversal from exit using only south and
+west direction; inclusion-exclusion)
+5. UVa 01243 - Polynomial-time Red... (LA 4272, Hefei08, Floyd Warshall’s
+transitive closure, SCC, transitive reduction of a directed graph)
+6. UVa 01263 - Mines (LA 4846, Daejeon10, geometry, SCC, see two related
+problems: UVa 11504 & 11770)
+7. UVa 10075 - Airlines (gcDistance—see Section 9.11—with APSP)
+8. UVa 10307 - Killing Aliens in Borg Maze (build SSSP graph with BFS, MST)
+9. UVa 11267 - The ‘Hire-a-Coder’ ... (bipartite check, MST accept -ve weight)
+10. UVa 11635 - Hotel Booking * (Dijkstra’s + BFS)
+11. UVa 11721 - Instant View ... (find nodes that can reach SCCs with neg cycle)
+12. UVa 11730 - Number Transformation (prime factoring, see Section 5.5.1)
+13. UVa 12070 - Invite Your Friends (LA 3290, Dhaka05, BFS + Dijkstra’s)
+14. UVa 12101 - Prime Path (BFS, involving prime numbers)
+15. UVa 12159 - Gun Fight * (LA 4407, KualaLumpur08, geometry, MCBM)
+• Two Components - Involving Mathematics
+1. UVa 01195 - Calling Extraterrestrial ... (LA 2565, Kanazawa02, use sieve to
+generate the list of primes, brute force each prime p and use binary search
+to find the corresponding pair q)
+2. UVa 10325 - The Lottery (inclusion exclusion principle, brute force subset
+for small M ≤ 15, lcm-gcd)
+3. UVa 10427 - Naughty Sleepy ... (numbers in [10 (k−1) ..10 k -1] has k digits)
+
+4. UVa 10539 - Almost Prime Numbers * (sieve; get ‘almost primes’: non
+prime numbers that are divisible by only a single prime number; we can get
+a list of ‘almost primes’ by listing the powers of each prime, e.g. 3 is a prime
+number, so 3 2 = 9, 3 3 = 27, 3 4 = 81, etc are ‘almost primes’; we can then
+sort these ‘almost primes’; and then do binary search)
+5. UVa 10637 - Coprimes * (involving prime numbers and gcd)
+6. UVa 10717 - Mint * (complete search + GCD/LCM, see Section 5.5.2)
+7. UVa 11282 - Mixing Invitations (derangement and binomial coefficient, use
+Java BigInteger)
+8. UVa 11415 - Count the Factorials (count the number of factors for each
+integer, use it to find the number of factors for each factorial number and
+store it in an array; for each query, search in the array to find the first element
+with that value with binary search)
+9. UVa 11428 - Cubes (complete search + binary search)
+• Two Components - Complete Search and Geometry
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+14.
+15.
+UVa 00142 - Mouse Clicks (brute force; point-in-rectangle; dist)
+UVa 00184 - Laser Lines (brute force; collinear test)
+UVa 00201 - Square (counting square of various sizes; try all)
+UVa 00270 - Lining Up (gradient sorting, complete search)
+UVa 00356 - Square Pegs And Round ... (Euclidean distance, brute force)
+UVa 00638 - Finding Rectangles (brute force 4 corner points)
+UVa 00688 - Mobile Phone Coverage (brute force; chop the region into small
+rectangles and decide if a small rectangle is covered by an antenna or not; if
+it is, add the area of that small rectangle to the answer)
+UVa 10012 - How Big Is It? * (try all 8! permutations, Euclidean dist)
+UVa 10167 - Birthday Cake (brute force A and B, ccw tests)
+UVa 10301 - Rings and Glue (circle-circle intersection, backtracking)
+UVa 10310 - Dog and Gopher (complete search, Euclidean distance dist)
+UVa 10823 - Of Circles and Squares (complete search; check if point inside
+circles/squares)
+UVa 11227 - The silver bullet * (brute force; collinear test)
+UVa 11515 - Cranes (circle-circle intersection, backtracking)
+UVa 11574 - Colliding Traffic * (brute force all pairs of boats; if one
+pair already collide, the answer is 0.0; otherwise derive a quadratic equation
+to detect when these two boats will collide, if they will; pick the minimum
+collision time overall; if there is no collision, output ‘No collision.’)
+• Mixed with Efficient Data Structure
+1. UVa 00843 - Crypt Kicker (backtracking; try mapping each letter to another
+letter in alphabet; use Trie data structure (see Section 6.6) to speed up if a
+certain (partial) word is in the dictionary)
+2. UVa 00922 - Rectangle by the Ocean (first, compute the area of the polygon;
+then for every pair of points, define a rectangle with those 2 points; use
+set to check whether a third point of the rectangle is on the polygon; check
+whether it is better than the current best)
+3. UVa 10734 - Triangle Partitioning (this is actually a geometry problem in-
+volving triangle/cosine rule, but we use a data structure that tolerates float-
+ing point imprecision due to triangle side normalization to make sure we
+count each triangle only once)
+
+4. UVa 11474 - Dying Tree * (use union find; first, connect all branches in
+the tree; next, connect one tree with another tree if any of their branch has
+distance less than k (a bit of geometry); then, connect any tree that can
+reach any doctor; finally, check if the first branch of the first/sick tree is
+connected to any doctor; the code can be quite long; be careful)
+5. UVa 11525 - Permutation * (can use Fenwick Tree and binary search the
+answer to find the lowest index i that has RSQ(1, i) = Si)
+6. UVa 11960 - Divisor Game * (modified Sieve, number of divisors, static
+Range Maximum Query, solvable with Sparse Table data structure)
+7. UVa 11966 - Galactic Bonding (use union find to keep track of the number
+of disjoint sets/constellations; if Euclidian dist ≤ D, union the two stars)
+8. UVa 11967 - Hic-Hac-Hoe (simple brute force, but we need to use C++ STL
+map as we cannot store the actual tic-tac-toe board; we only remember n
+coordinates and check if there are k consecutive coordinates that belong to
+any one player)
+9. UVa 12318 - Digital Roulette (brute force with set data structure)
+10. UVa 12460 - Careful teacher (BFS problem but needs set of string data
+structure to speed up)
+• Three Components
+1. UVa 00295 - Fatman * (binary search the answer x for this question: if
+the person is of diameter x, can he go from left to right? for any pair of
+obstacles (including the top and bottom walls), lay an edge between them
+if the person cannot go between them and check if the top and bottom wall
+are disconnected → person with diameter x can pass; Euclidian distance)
+2. UVa 00811 - The Fortified Forest (LA 5211, World Finals Eindhoven99, CH,
+perimeter of polygon, generate all subsets iteratively with bitmask)
+3. UVa 01040 - The Traveling Judges * (LA 3271, World Finals Shang-
+hai05, iterative complete search, try all subsets of 2 20 cities, form MST with
+those cities with help of Union-Find DS, complex output formatting)
+4. UVa 01079 - A Careful Approach (LA 4445, World Finals Stockholm09,
+discussed in this chapter)
+5. UVa 01093 - Castles (LA 4788, World Finals Harbin10, try all possible roots,
+DP on tree)
+6. UVa 01250 - Robot Challenge (LA 4607, SoutheastUSA09, geometry, SSSP
+on DAG → DP, DP 1D range sum)
+7. UVa 10856 - Recover Factorial (discussed in this section)
+8. UVa 10876 - Factory Robot (binary search the answer + geometry, Euclidian
+distance + union find, similar idea with UVa 295)
+9. UVa 11610 - Reverse Prime * (first, reverse primes less than 10 6 ; then,
+append zero(es) if necessary; use Fenwick Tree and binary search)
+
+Programming exercises related to 2-SAT problem:
+1. UVa 10319 - Manhattan * (the hard part in solving problems involving 2-
+SAT is in identifying that it is indeed a 2-SAT problem and then building the
+implication graph; for this problem, we set each street and each avenue as a
+variable where true means that it can only be used in a certain direction and
+false means that it can only be used in the other direction; a simple path will
+be in one of this form: (street a ∧ avenue b) ∨ (avenue c ∧ street d); this can
+be transformed into 2-CNF formula of (a ∨ c) ∧ (a ∨ d) ∧ (b ∨ c) ∧ (b ∨ d); build
+the implication graph and check if it is satisfiable using the SCC check as shown
+above; note that there exists a special case where the clause only has one literal,
+i.e. the simple path uses one street only or one avenue only.)
+
+
+Programming exercises related to Art Gallery problem:
+1. UVa 00588 - Video Surveillance * (see variant 3 solution above)
+2. UVa 10078 - Art Gallery * (see variant 2 solution above)
+3. UVa 10243 - Fire; Fire; Fire * (variant 4: this problem can be reduced to
+the Minimum Vertex Cover problem on Tree; there is a polynomial DP solution
+for this variant; the solution has actually been discussed Section 4.7.1)
+4. LA 2512 - Art Gallery (see variant 3 solution above plus area of polygon)
+5. LA 3617 - How I Mathematician ... (variant 3)
+
+
+Programming exercises related to Bitonic TSP:
+1. UVa 01096 - The Islands * (LA 4791, World Finals Harbin10, Bitonic TSP
+variant; print the actual path)
+2. UVa 01347 - Tour * (LA 3305, Southeastern Europe 2005; this is the pure
+version of Bitonic TSP problem, you may want to start from here)
+
+
+Programming exercises related to Bracket Matching:
+1. UVa 00551 - Nesting a Bunch of ... * (bracket matching, stack, classic)
+2. UVa 00673 - Parentheses Balance * (similar to UVa 551, classic)
+3. UVa 11111 - Generalized Matrioshkas * (bracket matching with some twists)
+
+Programming exercises related to Chinese Postman Problem:
+1. UVa 10296 - Jogging Trails * (see the discussion above)
+
+Programming exercises related to Closest Pair problem:
+1. UVa 10245 - The Closest Pair Problem * (classic, as discussed above)
+2. UVa 11378 - Bey Battle * (also a closest pair problem)
+
+Programming exercises related to rarely used Formulas or Theorems:
+1. UVa 10088 - Trees on My Island (Pick’s Theorem)
+2. UVa 10178 - Count the Faces (Euler’s Formula, a bit of union find)
+3. UVa 10213 - How Many Pieces ... * (Moser’s circle; the formula is hard to
+derive; g(n) = n C 4 + n C 2 + 1)
+4. UVa 10720 - Graph Construction * (Erd ̋os-Gallai’s Theorem)
+5. UVa 10843 - Anne’s game (Cayley’s Formula to count the number of spanning
+trees of a graph with n vertices is n n−2 ; use Java BigInteger)
+6. UVa 11414 - Dreams (similar to UVa 10720; Erd ̋os-Gallai’s Theorem)
+7. UVa 11719 - Gridlands Airports * (count the number of spanning tree in a
+complete bipartite graph; use Java BigInteger)
+
+
+Programming exercises related to Great-Circle Distance:
+1. UVa 00535 - Globetrotter (gcDistance)
+2. UVa 10316 - Airline Hub (gcDistance)
+3. UVa 10897 - Travelling Distance (gcDistance)
+4. UVa 11817 - Tunnelling The Earth (gcDistance; 3D Euclidean distance)
+
+Programming exercises related to Inversion Index problem:
+1. UVa 00299 - Train Swapping (solvable with O(n 2 ) bubble sort)
+2. UVa 00612 - DNA Sorting * (needs O(n 2 ) stable sort)
+3. UVa 10327 - Flip Sort * (solvable with O(n 2 ) bubble sort)
+4. UVa 10810 - Ultra Quicksort (requires O(n log n) merge sort)
+5. UVa 11495 - Bubbles and Buckets (requires O(n log n) merge sort)
+6. UVa 11858 - Frosh Week * (requires O(n log n) merge sort; 64-bit integer)
+
+Programming exercises related to Josephus problem:
+1. UVa 00130 - Roman Roulette (the original Josephus problem)
+2. UVa 00133 - The Dole Queue (brute force, similar to UVa 130)
+3. UVa 00151 - Power Crisis (the original Josephus problem)
+4. UVa 00305 - Joseph (the answer can be precalculated)
+5. UVa 00402 - M*A*S*H (modified Josephus, simulation)
+6. UVa 00440 - Eeny Meeny Moo (brute force, similar to UVa 151)
+7. UVa 10015 - Joseph’s Cousin (modified Josephus, dynamic k, variant of UVa 305)
+8. UVa 10771 - Barbarian tribes * (brute force, input size is small)
+9. UVa 10774 - Repeated Josephus * (repeated case of Josephus when k = 2)
+10. UVa 11351 - Last Man Standing * (use general case Josephus recurrence)
+
+Programming exercises related to Knight Tour problem:
+1. UVa 00439 - Knight Moves * (one BFS per query is enough)
+2. UVa 11643 - Knight Tour * (the distance between any 2 interesting positions
+can be obtained by using a pre-calculated BFS table (plus handling of the special
+corner cases); afterwards, this is just classic TSP problem, see Section 3.5.2)
+
+Programming exercises related to LCA:
+1. UVa 10938 - Flea circus (Lowest Common Ancestor as outlined above)
+2. UVa 12238 - Ants Colony (very similar to UVa 10938)
+
+Programming exercises related to Matrix Chain Multiplication:
+1. UVa 00348 - Optimal Array Mult ... * (as above, output the optimal solu-
+tion too; note that the optimal matrix multiplication sequence is not unique; e.g.
+imagine if all matrices are square matrices)
+
+Programming Exercises related to Matrix Power:
+1. UVa 10229 - Modular Fibonacci (discussed in this section + modulo)
+2. UVa 10518 - How Many Calls? * (derive the pattern of the answers for
+small n; the answer is 2 × f ib(n) − 1; then use UVa 10229 solution)
+3. UVa 10655 - Contemplation, Algebra * (discussed in this section)
+4. UVa 10870 - Recurrences (form the required matrix first; power of matrix)
+5. UVa 11486 - Finding Paths in Grid * (model as adjacency matrix; raise
+the adjacency matrix to the power of N in O(log N ) to get the number of paths)
+6. UVa 12470 - Tribonacci (very similar to UVa 10229; the 3 × 3 matrix is = [0 1 0;
+0 0 1; 1 1 1]; the answer is at matrix[1][1] after it is raised to the power of n and
+with modulo 1000000009)
+
+Programming exercises related to Min Cost (Max) Flow:
+1. UVa 10594 - Data Flow (basic min cost max flow problem)
+2. UVa 10746 - Crime Wave - The Sequel * (min weighted bip matching)
+3. UVa 10806 - Dijkstra, Dijkstra (send 2 edge-disjoint flows with min cost)
+4. UVa 10888 - Warehouse * (BFS/SSSP; min weighted bipartite matching)
+5. UVa 11301 - Great Wall of China * (modeling, vertex capacity, MCMF)
+
+Programming exercises related to Min Path Cover on DAG:
+1. UVa 01184 - Air Raid * (LA 2696, Dhaka02, MPC on DAG ≈ MCBM)
+2. UVa 01201 - Taxi Cab Scheme * (LA 3126, NWEurope04, MPC on DAG)
+
+Programming exercises related to Pancake Sorting:
+1. UVa 00120 - Stacks Of Flapjacks * (pancake sorting, greedy version)
+2. The Pancake Sorting problem as described in this section.
+
+Programming exercises related to Pollard’s rho algorithm:
+1. UVa 11476 - Factoring Large(t) ... * (see the discussion above)
+2. POJ 1811 - Prime Test, see http://poj.org/problem?id=1811
+
+Programming exercises related to Roman Numerals:
+1. UVa 00344 - Roman Digititis * (count how many Roman characters are used
+to make all numbers from 1 to N)
+2. UVa 00759 - The Return of the ... (Roman number + validity check)
+3. UVa 11616 - Roman Numerals * (Roman numeral conversion problem)
+4. UVa 12397 - Roman Numerals * (conversion, each Roman digit has value)
+
+
+Programming exercises:
+1. UVa 01121 - Subsequence * (sliding window variant no 1)
+2. UVa 11536 - Smallest Sub-Array * (sliding window variant no 2)
+3. IOI 2011 - Hottest (practice task; sliding window variant no 3)
+4. IOI 2011 - Ricehub (sliding window++)
+5. IOI 2012 - Tourist Plan (practice task; another sliding window variant; the best
+answer starting from city 0 and ending at city i ∈ [0..N -1] is the sum of happiness
+of the top K-i cities ∈ [0..i]; use priority queue; output the highest sum
+
+Programming exercises related to Sorting in Linear Time:
+1. UVa 11462 - Age Sort * (standard Counting Sort problem)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
