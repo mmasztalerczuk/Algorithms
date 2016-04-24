@@ -50,35 +50,45 @@ vector<string> split(string str, char delimiter) {
     return internal;
 }
 
-void Floyd(int tab[][MAXN], int size)
-{
-    FOR(i,size)
-        FOR(j,size)
-            FOR(k,size)
-            {
-                if(tab[j][k] > tab[j][i] + tab[i][k])
-                {
-                    tab[j][k] = tab[j][i] + tab[i][k];
-                }
-            }
-}
+int n;
 
-vector<vector<int> > AllSets(int e)
-{
-    MAT_INT ans;
-    FOR(i, (1 << e))
+
+
+int main() {
+    string n;
+    int q = 1;
+    while(getline(cin, n))
     {
-        vector<int> a;
-        FOR(j,(e+1))
+        if (q)
+            q=0;
+        else
+            cout << endl;
+        int p = stoi(n);
+        map<std::string, int> m;
+        string tmp;
+        getline(cin, tmp);
+        auto friends = split(tmp, ' ');
+        FOR(i, SZ(friends))
+            m[friends[i]] = 0;
+        FOR(i, p)
         {
-            if ((1 << j) & i)
+            getline(cin, tmp);
+            auto v = split(tmp, ' ');
+
+            int money = stoi(v[1]);
+            int k = stoi(v[2]);
+            int net = money;
+            if (k!=0)
+               net = money - k*(money/k);
+            m[v[0]] += -money + net;
+            FOR(j,k)
             {
-                a.push_back(j);
-                cout << "     " << j << endl;
+                m[v[3+j]] += money/k;
             }
         }
-        if (a.size() > 0)
-            ans.push_back(a);
+
+        FOR(i, SZ(friends))
+            cout << friends[i] << " " << m[friends[i]] << endl;
+
     }
-    return ans;
 }
