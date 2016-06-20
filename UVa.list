@@ -875,7 +875,8 @@ UVa 10505 - Montesco vs Capuleto (bipartite graph, take max(left, right))
 UVa 11080 - Place the Guards * (bipartite graph check, some tricky cases)
 UVa 11396 - Claw Decomposition * (it is just a bipartite graph check)
 • Finding Articulation Points/Bridges
-UVa 00315 - Network * (finding articulation points)
+
+[DONE] UVa 00315 - Network * (finding articulation points)
 UVa 00610 - Street Directions (finding bridges)
 UVa 00796 - Critical Links * (finding bridges)
 UVa 10199 - Tourist Guide (finding articulation points)
